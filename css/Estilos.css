@@ -1,2 +1,36 @@
-h1 {
-  background-color: red; }
+@charset "UTF-8";
+/*-----------------APLICABLE A TODAS LAS SECCIONES-----------------*/
+/*-----------------NAVBAR-----------------*/
+.Hero {
+  background: url("https://cdnmundo1.img.sputniknews.com/img/07e5/03/0b/1109764838_0:432:2048:1584_1920x0_80_0_0_369734dff8483ddb0e168b6452419b70.jpg") no-repeat 50% 50%;
+  background-size: cover;
+  height: 100vh; }
+  .Hero .NavbarCustom {
+    height: 20%; }
+    .Hero .NavbarCustom .nav-link {
+      color: white;
+      font-size: 1.5rem;
+      text-align: center; }
+    .Hero .NavbarCustom .LogoBandoneon {
+      width: 87%; }
+  .Hero .navbar-nav > li {
+    /*--Le agrega espacios entre secciones--*/
+    margin-right: 2rem; }
+  .Hero .navbar-brand {
+    /*--Le reduce el tamaño al contenedor del logo--*/
+    width: 11%; }
+  .Hero .Hero__Content {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 80%;
+    width: 100%; }
+    .Hero .Hero__Content .Hero__Content__Titulo {
+      font-size: 5vw;
+      margin-right: 3rem;
+      text-transform: uppercase;
+      color: #B19D07;
+      text-align: right; }
+
+/*-----------------NAVBAR-----------------*/
+/*-----------------APLICABLE A TODAS LAS SECCIONES-----------------*/
