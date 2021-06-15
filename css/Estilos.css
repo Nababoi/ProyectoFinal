@@ -12,7 +12,7 @@
       font-size: 1.5rem;
       text-align: center; }
     .Hero .NavbarCustom .LogoBandoneon {
-      width: 87%; }
+      width: 88%; }
   .Hero .navbar-nav > li {
     /*--Le agrega espacios entre secciones--*/
     margin-right: 2rem; }
@@ -32,5 +32,78 @@
       color: #B19D07;
       text-align: right; }
 
+/*-----------------Animacion para el navbar-----------------*/
+.nav-link {
+  /*-----------------Le quito el padding para que la linea de animacion sea del tamaño de la palabra y no mas-----------------*/
+  padding-right: 0 !important;
+  padding-left: 0 !important; }
+
+.AnimacionLinea {
+  position: relative; }
+
+.AnimacionLinea::after {
+  content: '';
+  width: 0%;
+  height: 0.1rem;
+  display: block;
+  background-color: #B19D07;
+  position: absolute;
+  transition: width .9s; }
+
+.AnimacionLinea:hover::after {
+  width: 100%;
+  position: absolute;
+  background-color: #B19D07;
+  transition: width .9s; }
+
+/*-----------------Animacion para el navbar-----------------*/
 /*-----------------NAVBAR-----------------*/
 /*-----------------APLICABLE A TODAS LAS SECCIONES-----------------*/
+/*-----------------PRESENTACION DE LA PÁGINA-----------------*/
+.ContenedorIndex {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 3rem 0 3rem 0; }
+  .ContenedorIndex .DobleFondo {
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    background-color: #1F1919;
+    padding: 2rem 0 2rem 0;
+    border-radius: 0.7rem; }
+    .ContenedorIndex .DobleFondo .FondoDescripcion {
+      background: url("https://static.eldiario.es/clip/0e174474-d3b3-4f0c-90a4-0fcf82cac2de_16-9-aspect-ratio_default_1013593.jpg") no-repeat 50% 50%;
+      background-size: cover;
+      width: 95%; }
+      .ContenedorIndex .DobleFondo .FondoDescripcion .FondoOpaco {
+        display: flex;
+        justify-content: center;
+        position: relative;
+        background-color: rgba(0, 0, 0, 0.6); }
+        .ContenedorIndex .DobleFondo .FondoDescripcion .FondoOpaco .FondoDescripcion__Presentacion {
+          color: white;
+          font-size: 5rem;
+          margin-bottom: 0;
+          width: 50%;
+          height: 26rem;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          text-transform: uppercase;
+          text-align: center; }
+        .ContenedorIndex .DobleFondo .FondoDescripcion .FondoOpaco .FondoDescripcion__Presentacion2 {
+          color: white;
+          font-size: 1.5rem;
+          letter-spacing: 0.1rem;
+          text-align: center;
+          text-transform: uppercase;
+          margin-bottom: 0;
+          width: 50%;
+          border-left: 0.5rem white solid;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          padding: 0 2rem 0 2rem; }
+
+/*-----------------PRESENTACION DE LA PÁGINA-----------------*/
