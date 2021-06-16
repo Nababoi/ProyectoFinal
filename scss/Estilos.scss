@@ -69,11 +69,17 @@ body{
 /*-----------------Animacion para el navbar--------------fin---*/
 /*-----------------NAVBAR--------------fin---*/
 /*-----------------CARRUSEL-----------------*/
+.FondoCarrusel{
+    background: url("https://png.pngtree.com/thumb_back/fw800/background/20201125/pngtree-black-background-design-vol-4-image_499390.jpg") 225% 89%;    
+    background-attachment: fixed;
+        .FondoCarrusel__Opaco{
+            background-color: rgba(0, 0, 0, .6);
+        }
+}
 .slide{
     width: 100%;
 	margin: auto;
-	margin-top:1rem;
-
+    padding: 2rem 0 0 0;
     .slide__img{
         height: 69vh;
     }
@@ -117,6 +123,12 @@ body{
 /*-----------------APLICABLE A TODAS LAS SECCIONES--------------fin---*/
 
 /*-----------------PRESENTACION DE LA PÁGINA-----------------*/
+#Troilo{
+    background-image: url("https://static.wixstatic.com/media/af26e6_be6ee96d13e34779bc16ceae0348be7e~mv2.jpg/v1/fill/w_932,h_778,al_c,q_90/af26e6_be6ee96d13e34779bc16ceae0348be7e~mv2.jpg");
+}
+#Octeto{
+    background-image: url("https://style.shockvisual.net/wp-content/uploads/2021/05/Octeto-Buenos-Aires-Astor-Piazzolla.jpg");
+}
 .ContenedorIndex{
     width: 100%;
     position: relative;
@@ -125,10 +137,10 @@ body{
     background-image: url("../Img/FondoColon.jpg");
     background-attachment: fixed;
         .DobleFondo{
-                width: 85%;
+                width: 91%;
                 display: flex;
                 justify-content: center;
-                background-color: #1F1919;
+                background-color: rgba(0,0,0,.7);
                 padding: 2rem 0 2rem 0;
                 margin: 3rem 0 3rem 0;
                 border-radius: 0.7rem;
@@ -136,6 +148,7 @@ body{
                 background: url("https://static.eldiario.es/clip/0e174474-d3b3-4f0c-90a4-0fcf82cac2de_16-9-aspect-ratio_default_1013593.jpg") no-repeat 50% 50% ;
                 background-size: cover;
                 width: 95%;
+                border-radius: 0.8rem;
                 background-attachment: fixed;
                     .FondoOpaco{
                         display: flex;
