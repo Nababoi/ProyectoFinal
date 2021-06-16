@@ -1,10 +1,14 @@
 @charset "UTF-8";
 /*-----------------APLICABLE A TODAS LAS SECCIONES-----------------*/
+body {
+  background-color: black !important; }
+
 /*-----------------NAVBAR-----------------*/
 .Hero {
   background: url("https://cdnmundo1.img.sputniknews.com/img/07e5/03/0b/1109764838_0:432:2048:1584_1920x0_80_0_0_369734dff8483ddb0e168b6452419b70.jpg") no-repeat 50% 50%;
   background-size: cover;
-  height: 100vh; }
+  height: 100vh;
+  background-attachment: fixed; }
   .Hero .NavbarCustom {
     height: 20%; }
     .Hero .NavbarCustom .nav-link {
@@ -56,26 +60,68 @@
   background-color: #B19D07;
   transition: width .9s; }
 
-/*-----------------Animacion para el navbar-----------------*/
-/*-----------------NAVBAR-----------------*/
-/*-----------------APLICABLE A TODAS LAS SECCIONES-----------------*/
+/*-----------------Animacion para el navbar--------------fin---*/
+/*-----------------NAVBAR--------------fin---*/
+/*-----------------CARRUSEL-----------------*/
+.slide {
+  width: 100%;
+  margin: auto;
+  margin-top: 1rem; }
+  .slide .slide__img {
+    height: 69vh; }
+  .slide h5 {
+    font-size: 2.7rem;
+    color: white;
+    text-transform: uppercase; }
+  .slide a {
+    padding-top: 3rem;
+    text-decoration: none; }
+  .slide p {
+    font-size: 1.3rem;
+    background-color: rgba(0, 0, 0, 0.3);
+    text-transform: uppercase; }
+
+.carousel {
+  width: 83vw; }
+
+.d-none {
+  display: block !important; }
+
+.carousel-caption {
+  padding-bottom: 0;
+  position: absolute;
+  right: 15%;
+  left: 15%;
+  bottom: -4% !important;
+  color: #fff;
+  text-align: center; }
+
+.carousel-inner {
+  border-radius: 1.7rem; }
+
+/*-----------------CARRUSEL--------------fin---*/
+/*-----------------APLICABLE A TODAS LAS SECCIONES--------------fin---*/
 /*-----------------PRESENTACION DE LA PÁGINA-----------------*/
 .ContenedorIndex {
   width: 100%;
+  position: relative;
   display: flex;
   justify-content: center;
-  margin: 3rem 0 3rem 0; }
+  background-image: url("../Img/FondoColon.jpg");
+  background-attachment: fixed; }
   .ContenedorIndex .DobleFondo {
     width: 85%;
     display: flex;
     justify-content: center;
     background-color: #1F1919;
     padding: 2rem 0 2rem 0;
+    margin: 3rem 0 3rem 0;
     border-radius: 0.7rem; }
     .ContenedorIndex .DobleFondo .FondoDescripcion {
       background: url("https://static.eldiario.es/clip/0e174474-d3b3-4f0c-90a4-0fcf82cac2de_16-9-aspect-ratio_default_1013593.jpg") no-repeat 50% 50%;
       background-size: cover;
-      width: 95%; }
+      width: 95%;
+      background-attachment: fixed; }
       .ContenedorIndex .DobleFondo .FondoDescripcion .FondoOpaco {
         display: flex;
         justify-content: center;

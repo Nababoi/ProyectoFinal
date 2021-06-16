@@ -8,7 +8,7 @@
     "build-css": "node-sass --include-path scss scss/Estilos.scss css/Estilos.css"
   },
   "keywords": [],
-  "author": "LucasNavarro",
+  "author": "",
   "license": "ISC",
   "devDependencies": {
     "node-sass": "^6.0.0",
