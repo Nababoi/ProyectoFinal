@@ -85,7 +85,8 @@ body {
   .slide p {
     font-size: 1.3rem;
     background-color: rgba(0, 0, 0, 0.3);
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    color: white; }
 
 .carousel {
   width: 83vw; }
@@ -106,6 +107,33 @@ body {
   border-radius: 1.7rem; }
 
 /*-----------------CARRUSEL--------------fin---*/
+/*-----------------FOOTER----------------------*/
+.Footer {
+  background-color: #1F1D1C;
+  display: flex;
+  height: 15vh; }
+  .Footer .Copyright {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 50%;
+    margin: 0 0 0 2rem; }
+    .Footer .Copyright .Footer__Letras {
+      color: white;
+      text-transform: uppercase;
+      margin: 0; }
+  .Footer .Redes {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 0 8rem 0 0; }
+    .Footer .Redes .Red {
+      height: 2rem;
+      padding: 0 1.4rem 0 0; }
+
+/*-----------------FOOTER-------------------fin---*/
 /*-----------------APLICABLE A TODAS LAS SECCIONES--------------fin---*/
 /*-----------------PRESENTACION DE LA PÁGINA--------------index---*/
 #Troilo {
@@ -130,7 +158,7 @@ body {
     margin: 3rem 0 3rem 0;
     border-radius: 0.7rem; }
     .ContenedorIndex .DobleFondo .FondoDescripcion {
-      background: url("https://static.eldiario.es/clip/0e174474-d3b3-4f0c-90a4-0fcf82cac2de_16-9-aspect-ratio_default_1013593.jpg") no-repeat 50% 50%;
+      background: url("https://static.eldiario.es/clip/0e174474-d3b3-4f0c-90a4-0fcf82cac2de_16-9-aspect-ratio_default_1013593.jpg") no-repeat;
       background-size: cover;
       width: 95%;
       border-radius: 0.8rem;
@@ -173,9 +201,11 @@ body {
 
 .MusicaIndex {
   background-image: url("https://www.cultura.gob.ar/media/uploads/piazzolla_tango_en_paris.jpg");
-  background-attachment: fixed; }
+  background-attachment: fixed;
+  background-size: cover; }
   .MusicaIndex .FondoOpaco {
     display: flex;
+    align-items: center;
     background-color: rgba(0, 0, 0, 0.5);
     padding: 2rem; }
     .MusicaIndex .FondoOpaco .LetrasMusicaIndex {
@@ -204,5 +234,8 @@ body {
       display: flex;
       justify-content: center;
       align-items: center; }
+      .MusicaIndex .FondoOpaco .VideoMusicaIndex .Video {
+        opacity: 75%;
+        border-radius: 1rem; }
 
 /*-----------------SECCION DE LA MUSICA EN EL INDEX-------Fin---*/

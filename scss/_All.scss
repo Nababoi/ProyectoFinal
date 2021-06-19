@@ -1,0 +1,158 @@
+/*-----------------APLICABLE A TODAS LAS SECCIONES-----------------*/
+body{
+    background-color: black !important;
+}
+
+/*-----------------NAVBAR-----------------*/
+.Hero{
+    background: url("https://cdnmundo1.img.sputniknews.com/img/07e5/03/0b/1109764838_0:432:2048:1584_1920x0_80_0_0_369734dff8483ddb0e168b6452419b70.jpg") no-repeat 50% 50%;
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+    .NavbarCustom{
+        height: 20%;
+            .nav-link{
+                color: white;
+                font-size: 1.5rem;
+                text-align: center;
+            }
+            .LogoBandoneon{
+                width: 88%;
+            }
+    }
+    .navbar-nav > li{
+        /*--Le agrega espacios entre secciones--*/
+        margin-right: 2rem;
+    }
+    .navbar-brand{
+        /*--Le reduce el tamaño al contenedor del logo--*/
+        width: 11%;
+    }
+    .Hero__Content{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        height: 80%;
+        width: 100%;
+            .Hero__Content__Titulo{
+                font-size: 5vw;
+                margin-right: 3rem;
+                text-transform: uppercase;
+                color: $Color-Primario;
+                text-align: right;
+            }
+    }
+}
+/*-----------------Animacion para el navbar-----------------*/
+.nav-link{
+    /*-----------------Le quito el padding para que la linea de animacion sea del tamaño de la palabra y no mas-----------------*/
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+.AnimacionLinea{
+    position: relative;
+}
+    .AnimacionLinea::after{
+        content: '';
+        width: 0%;
+        height: 0.1rem;
+        display: block;
+        background-color: $Color-Primario;
+        position: absolute;
+        transition: width .9s;
+    }
+    .AnimacionLinea:hover::after{
+        width: 100%;
+        position: absolute;
+        background-color: #B19D07;
+        transition: width .9s;
+}
+/*-----------------Animacion para el navbar--------------fin---*/
+/*-----------------NAVBAR--------------fin---*/
+/*-----------------CARRUSEL-----------------*/
+.FondoCarrusel{
+    background: url("https://png.pngtree.com/thumb_back/fw800/background/20201125/pngtree-black-background-design-vol-4-image_499390.jpg") 225% 89%;    
+    background-attachment: fixed;
+        .FondoCarrusel__Opaco{
+            background-color: rgba(0, 0, 0, .6);
+        }
+}
+.slide{
+    width: 100%;
+	margin: auto;
+    padding: 2rem 0 2rem 0;
+    .slide__img{
+        height: 69vh;
+    }
+    
+
+            h5{
+                font-size: 2.7rem;
+                color: $Color-Titulo;
+                text-transform: uppercase;
+            }
+            a{
+                padding-top:3rem;
+                text-decoration: none;
+            }
+            p{
+                font-size: 1.3rem;
+                background-color:rgba(0,0,0,.3);
+                text-transform: uppercase;
+                color: $Color-Titulo;
+                
+            }
+        }
+        .carousel{
+            width: 83vw;
+        }    
+        .d-none{
+            display: block!important;
+        }
+        .carousel-caption{
+            padding-bottom: 0;
+            position: absolute;
+            right: 15%;
+            left: 15%;
+            bottom: -4% !important;
+            color: #fff;
+            text-align: center;
+        }
+        .carousel-inner{
+            border-radius: 1.7rem;
+        }
+/*-----------------CARRUSEL--------------fin---*/
+/*-----------------FOOTER----------------------*/
+.Footer{
+    background-color: #1F1D1C;
+    display: flex;
+    height: 15vh;
+        .Copyright{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            width: 50%;
+            margin: 0 0 0 2rem;
+                .Footer__Letras{
+                    color: $Color-Titulo;
+                    text-transform: uppercase;
+                    margin: 0;
+                    
+                }
+        }
+        .Redes{
+            width: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            margin: 0 8rem 0 0;
+                .Red{
+                    height: 2rem;
+                    padding: 0 1.4rem 0 0;
+                }
+
+        }
+}
+/*-----------------FOOTER-------------------fin---*/
+/*-----------------APLICABLE A TODAS LAS SECCIONES--------------fin---*/

@@ -1,0 +1,116 @@
+/*-----------------PRESENTACION DE LA PÁGINA--------------index---*/
+#Troilo{
+    background-image: url("https://static.wixstatic.com/media/af26e6_be6ee96d13e34779bc16ceae0348be7e~mv2.jpg/v1/fill/w_932,h_778,al_c,q_90/af26e6_be6ee96d13e34779bc16ceae0348be7e~mv2.jpg");
+}
+#Octeto{
+    background-image: url("https://style.shockvisual.net/wp-content/uploads/2021/05/Octeto-Buenos-Aires-Astor-Piazzolla.jpg");
+}
+.ContenedorIndex{
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background-image: url("../Img/FondoColon.jpg");
+    background-attachment: fixed;
+        .DobleFondo{
+                width: 91%;
+                display: flex;
+                justify-content: center;
+                background-color: $Fondo-Opaco-Marcos;
+                padding: 2rem 0 2rem 0;
+                margin: 3rem 0 3rem 0;
+                border-radius: 0.7rem;
+            .FondoDescripcion{
+                background: url("https://static.eldiario.es/clip/0e174474-d3b3-4f0c-90a4-0fcf82cac2de_16-9-aspect-ratio_default_1013593.jpg") no-repeat;
+                background-size: cover;
+                width: 95%;
+                border-radius: 0.8rem;
+                background-attachment: fixed;
+                    .FondoOpaco{
+                        display: flex;
+                        justify-content: center;
+                        position: relative;
+                        background-color: rgba(0,0,0,.6);
+                    .FondoDescripcion__Presentacion{
+                        color: $Color-Titulo;
+                        font-size: 5rem;
+                        margin-bottom: 0;
+                        width: 50%;
+                        height: 26rem;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        text-transform: uppercase;
+                        text-align: center;
+                    }
+                    .FondoDescripcion__Presentacion2{
+                        color: white;
+                        font-size: 1.5rem;
+                        letter-spacing: 0.1rem;
+                        text-align: center;
+                        text-transform: uppercase;
+                        margin-bottom: 0;
+                        width: 50%;
+                        border-left: 0.5rem white solid;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        padding: 0 2rem 0 2rem;
+                    }
+                }
+            }
+        }
+    }
+/*-----------------PRESENTACION DE LA PÁGINA--------------Fin---*/
+/*-----------------SECCION DE LA MUSICA EN EL INDEX-------index---*/
+#Nonino{
+    background-image: url("https://i0.wp.com/argentear.com/wp-content/uploads/2016/05/Piazzolla.jpg?fit=1500%2C803&ssl=1");
+    background-size: cover;
+}
+
+.MusicaIndex{
+    background-image: url("https://www.cultura.gob.ar/media/uploads/piazzolla_tango_en_paris.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+        .FondoOpaco{
+            display: flex;
+            align-items: center;
+            background-color: $Fondo-Opaco-Fondos;
+            padding: 2rem;
+                .LetrasMusicaIndex{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    width: 50%;
+                    height: 100%;
+                    text-transform: uppercase;
+                        .TituloMusicaIndex{
+                            color: white;
+                            font-size: 3rem;
+                            text-align: center;
+                            height: 40%;
+                            display: flex;
+                            align-items: center;
+                        }
+                        .TextoMusicaIndex{
+                            color: white;
+                            font-size: 1.4rem;
+                            text-align: center;
+                            padding: 0 3rem 0 3rem;
+                            height: 60%;
+                        }
+                }
+                .VideoMusicaIndex{
+                    width: 50%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                        .Video{
+                            opacity: 75%;
+                            border-radius: 1rem;
+                        }
+                }
+        }
+}
+/*-----------------SECCION DE LA MUSICA EN EL INDEX-------Fin---*/
