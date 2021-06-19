@@ -239,3 +239,28 @@ body {
         border-radius: 1rem; }
 
 /*-----------------SECCION DE LA MUSICA EN EL INDEX-------Fin---*/
+@media (max-width: 575.98px) {
+  /*------------PRESENTACION------------index---*/
+  .ContenedorIndex .DobleFondo {
+    background-attachment: none;
+    padding: 1.4rem; }
+    .ContenedorIndex .DobleFondo .FondoDescripcion {
+      width: 95%;
+      background-position: 39%;
+      background-attachment: unset; }
+      .ContenedorIndex .DobleFondo .FondoDescripcion .FondoOpaco {
+        display: flex;
+        flex-direction: column; }
+        .ContenedorIndex .DobleFondo .FondoDescripcion .FondoOpaco .FondoDescripcion__Presentacion {
+          width: 100%;
+          font-size: 3vh;
+          padding: 2rem;
+          height: 100%; }
+        .ContenedorIndex .DobleFondo .FondoDescripcion .FondoOpaco .FondoDescripcion__Presentacion2 {
+          width: 100%;
+          font-size: 1.7vh;
+          border-left: none;
+          border-top: 0.7rem solid white;
+          padding: 3rem; } }
+
+/*------------PRESENTACION------------index---*/
