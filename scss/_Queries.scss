@@ -26,7 +26,30 @@
                 }
             }   
         }    
-    /*------------PRESENTACION------------fin---*/
+    /*------------CARRUSEL---------------*/
+    .carousel-caption{
+        padding: 0;
+    }
+    .slide{
+        padding: 1rem 0 1rem 0;
+        .slide__img{
+            height: 38vh;
+        }
+                h5{
+                    font-size: 1.2rem;
+                    color: $Color-Titulo;
+                    text-transform: uppercase;
+                }
+                a{
+                    padding-top:3rem;
+                    text-decoration: none;
+                }
+                p{
+                    font-size: 0.6rem;
+                }
+            }
+    /*------------CARRUSEL------------fin---*/
+    /*------------MUSICA EN EL INDEX---------------*/
 
     .MusicaIndex{  
         background-position: 52%;
@@ -52,6 +75,7 @@
             }
         }
 }
+/*------------MUSICA EN EL INDEX------------fin---*/
     /*------------FOOTER-------------------------*/
     .Footer{
         display: flex;

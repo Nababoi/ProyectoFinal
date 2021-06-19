@@ -259,7 +259,24 @@ body {
           border-left: none;
           border-top: 0.7rem solid white;
           padding: 3rem; }
-  /*------------PRESENTACION------------fin---*/
+  /*------------CARRUSEL---------------*/
+  .carousel-caption {
+    padding: 0; }
+  .slide {
+    padding: 1rem 0 1rem 0; }
+    .slide .slide__img {
+      height: 38vh; }
+    .slide h5 {
+      font-size: 1.2rem;
+      color: white;
+      text-transform: uppercase; }
+    .slide a {
+      padding-top: 3rem;
+      text-decoration: none; }
+    .slide p {
+      font-size: 0.6rem; }
+  /*------------CARRUSEL------------fin---*/
+  /*------------MUSICA EN EL INDEX---------------*/
   .MusicaIndex {
     background-position: 52%; }
     .MusicaIndex .FondoOpaco {
@@ -277,6 +294,7 @@ body {
         .MusicaIndex .FondoOpaco .VideoMusicaIndex .Video {
           width: 90%;
           height: 30vh; }
+  /*------------MUSICA EN EL INDEX------------fin---*/
   /*------------FOOTER-------------------------*/
   .Footer {
     display: flex;
