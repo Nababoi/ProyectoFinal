@@ -1,13 +1,10 @@
 @media (max-width: 575.98px){
     /*------------PRESENTACION------------index---*/
     .ContenedorIndex .DobleFondo{
-            background-attachment: none;
             padding: 1.4rem;
         
             .FondoDescripcion{
-                width: 95%;
                 background-position: 39%;
-                background-attachment: unset;
                 .FondoOpaco{
                     display: flex;
                     flex-direction: column;
@@ -29,5 +26,54 @@
                 }
             }   
         }    
+    /*------------PRESENTACION------------fin---*/
+
+    .MusicaIndex .FondoOpaco{
+        display: flex;
+        flex-direction: column;
+        .LetrasMusicaIndex {
+            width: 100%;
+                .TituloMusicaIndex{
+                    font-size: 2rem;
+                }
+                .TextoMusicaIndex{
+                    font-size: 0.9rem;
+                    padding: 1rem;
+                }
+        }
+        .VideoMusicaIndex{
+            width: 100%;
+                .Video{
+                    width: 90%;
+                    height: 30vh;
+                }
+        }
     }
-    /*------------PRESENTACION------------index---*/
+    /*------------FOOTER-------------------------*/
+    .Footer{
+        display: flex;
+        flex-direction: column;
+            .Copyright{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+                margin: 1.3rem 0 0 0;
+                    .Footer__Letras{
+                        font-size: 0.6rem;
+                    }
+            }
+            .Redes{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+                margin: 0.7rem 0 0 0;
+                    .Red{
+                        height: 1.4rem;
+                    }
+            }
+    }
+    /*------------FOOTER-------------------------*/
+    }
+    

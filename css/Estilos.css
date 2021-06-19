@@ -242,12 +242,9 @@ body {
 @media (max-width: 575.98px) {
   /*------------PRESENTACION------------index---*/
   .ContenedorIndex .DobleFondo {
-    background-attachment: none;
     padding: 1.4rem; }
     .ContenedorIndex .DobleFondo .FondoDescripcion {
-      width: 95%;
-      background-position: 39%;
-      background-attachment: unset; }
+      background-position: 39%; }
       .ContenedorIndex .DobleFondo .FondoDescripcion .FondoOpaco {
         display: flex;
         flex-direction: column; }
@@ -261,6 +258,41 @@ body {
           font-size: 1.7vh;
           border-left: none;
           border-top: 0.7rem solid white;
-          padding: 3rem; } }
-
-/*------------PRESENTACION------------index---*/
+          padding: 3rem; }
+  /*------------PRESENTACION------------fin---*/
+  .MusicaIndex .FondoOpaco {
+    display: flex;
+    flex-direction: column; }
+    .MusicaIndex .FondoOpaco .LetrasMusicaIndex {
+      width: 100%; }
+      .MusicaIndex .FondoOpaco .LetrasMusicaIndex .TituloMusicaIndex {
+        font-size: 2rem; }
+      .MusicaIndex .FondoOpaco .LetrasMusicaIndex .TextoMusicaIndex {
+        font-size: 0.9rem;
+        padding: 1rem; }
+    .MusicaIndex .FondoOpaco .VideoMusicaIndex {
+      width: 100%; }
+      .MusicaIndex .FondoOpaco .VideoMusicaIndex .Video {
+        width: 90%;
+        height: 30vh; }
+  /*------------FOOTER-------------------------*/
+  .Footer {
+    display: flex;
+    flex-direction: column; }
+    .Footer .Copyright {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      margin: 1.3rem 0 0 0; }
+      .Footer .Copyright .Footer__Letras {
+        font-size: 0.6rem; }
+    .Footer .Redes {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      margin: 0.7rem 0 0 0; }
+      .Footer .Redes .Red {
+        height: 1.4rem; }
+  /*------------FOOTER-------------------------*/ }
