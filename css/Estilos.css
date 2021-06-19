@@ -261,7 +261,7 @@ body {
           padding: 3rem; }
   /*------------CARRUSEL---------------*/
   .carousel-caption {
-    padding: 0; }
+    padding: 0 !important; }
   .slide {
     padding: 1rem 0 1rem 0; }
     .slide .slide__img {
