@@ -28,27 +28,30 @@
         }    
     /*------------PRESENTACION------------fin---*/
 
-    .MusicaIndex .FondoOpaco{
-        display: flex;
-        flex-direction: column;
-        .LetrasMusicaIndex {
-            width: 100%;
-                .TituloMusicaIndex{
-                    font-size: 2rem;
-                }
-                .TextoMusicaIndex{
-                    font-size: 0.9rem;
-                    padding: 1rem;
-                }
+    .MusicaIndex{  
+        background-position: 52%;
+        .FondoOpaco{
+            display: flex;
+            flex-direction: column;
+            .LetrasMusicaIndex {
+                width: 100%;
+                    .TituloMusicaIndex{
+                        font-size: 2rem;
+                    }
+                    .TextoMusicaIndex{
+                        font-size: 0.9rem;
+                        padding: 1rem;
+                    }
+            }
+            .VideoMusicaIndex{
+                width: 100%;
+                    .Video{
+                        width: 90%;
+                        height: 30vh;
+                    }
+            }
         }
-        .VideoMusicaIndex{
-            width: 100%;
-                .Video{
-                    width: 90%;
-                    height: 30vh;
-                }
-        }
-    }
+}
     /*------------FOOTER-------------------------*/
     .Footer{
         display: flex;

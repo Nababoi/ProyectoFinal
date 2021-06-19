@@ -260,21 +260,23 @@ body {
           border-top: 0.7rem solid white;
           padding: 3rem; }
   /*------------PRESENTACION------------fin---*/
-  .MusicaIndex .FondoOpaco {
-    display: flex;
-    flex-direction: column; }
-    .MusicaIndex .FondoOpaco .LetrasMusicaIndex {
-      width: 100%; }
-      .MusicaIndex .FondoOpaco .LetrasMusicaIndex .TituloMusicaIndex {
-        font-size: 2rem; }
-      .MusicaIndex .FondoOpaco .LetrasMusicaIndex .TextoMusicaIndex {
-        font-size: 0.9rem;
-        padding: 1rem; }
-    .MusicaIndex .FondoOpaco .VideoMusicaIndex {
-      width: 100%; }
-      .MusicaIndex .FondoOpaco .VideoMusicaIndex .Video {
-        width: 90%;
-        height: 30vh; }
+  .MusicaIndex {
+    background-position: 52%; }
+    .MusicaIndex .FondoOpaco {
+      display: flex;
+      flex-direction: column; }
+      .MusicaIndex .FondoOpaco .LetrasMusicaIndex {
+        width: 100%; }
+        .MusicaIndex .FondoOpaco .LetrasMusicaIndex .TituloMusicaIndex {
+          font-size: 2rem; }
+        .MusicaIndex .FondoOpaco .LetrasMusicaIndex .TextoMusicaIndex {
+          font-size: 0.9rem;
+          padding: 1rem; }
+      .MusicaIndex .FondoOpaco .VideoMusicaIndex {
+        width: 100%; }
+        .MusicaIndex .FondoOpaco .VideoMusicaIndex .Video {
+          width: 90%;
+          height: 30vh; }
   /*------------FOOTER-------------------------*/
   .Footer {
     display: flex;
