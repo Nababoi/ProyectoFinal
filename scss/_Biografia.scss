@@ -1,0 +1,125 @@
+/*--------------MUSICA-------------*/
+#Musica{
+    background-image: url("https://media.elestimulo.com/2021/03/FOTO-PRINCIPAL-1-960x572.jpg");
+}
+.Vida{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        .DobleFondo{
+            width: 94%;
+            display: flex;
+            flex-direction: column;
+                .Vida__Descripcion1{
+                    display: flex;
+                    width: 100%;
+                        .Niñez{
+                            width: 50%;
+                            background: url("https://cdnmundo1.img.sputniknews.com/img/07e5/03/0b/1109765334_0:69:2008:1199_1920x0_80_0_0_ba57f9d2de2c12eaa066e30f05118c6c.jpg") 50% 50% no-repeat;
+                            background-size: cover;
+                            border-right: 0.3rem solid white;
+                                .FondoOpaco{
+                                    background-color: $Fondo-Opaco-Vida;
+                                    display: flex;
+                                    flex-direction: column;
+                                    height: 100%;
+                                    align-items: center;
+                                .NiñezTitulo{
+                                    display: flex;
+                                    justify-content: center;
+                                    text-transform: uppercase;
+                                    font-size: $Tamaño-Titulo-Vida;
+                                    color: $Color-Titulo;
+                                    width: 100%;
+                                }
+                                .NiñezTexto{
+                                    font-size: $Tamaño-Letra-Vida;
+                                    color: $Color-Titulo;
+                                    padding: $Padding-Contenido-Vida;
+                                }
+                            }
+                        }
+                        .Juventud{
+                            width: 50%;
+                            background: url("https://images.clarin.com/2020/01/23/piazzolla-el-musico-que-refundo___byjCOjo9_720x0__1.jpg") 50% 50% no-repeat;
+                            background-size: cover;
+                                .FondoOpaco{
+                                    display: flex;
+                                    flex-direction: column;
+                                    height: 100%;
+                                    align-items: center;
+                                    background-color: $Fondo-Opaco-Vida;
+                                .JuventudTitulo{
+                                    display: flex;
+                                    justify-content: center;
+                                    text-transform: uppercase;
+                                    font-size: $Tamaño-Titulo-Vida;
+                                    color: $Color-Titulo;
+                                }
+                                .JuventudTexto{
+                                    font-size: $Tamaño-Letra-Vida;
+                                    color: $Color-Titulo;
+                                    padding: $Padding-Contenido-Vida;
+                                }
+                            }
+                        }
+                }
+        }
+        .Vida__Descripcion2{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border-top: 0.3rem solid white;
+                .Vejez{
+                    width: 100%;
+                    background: url("https://lmdiario.com.ar/download/multimedia.normal.a5ed85940ba4ad1d.7069617a7a6f6c6c6120c2a9204e415f6e6f726d616c2e6a7067.jpg") 50% 50% no-repeat;
+                    background-size: cover;
+                        .FondoOpaco{
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            align-items: center;
+                            background-color: $Fondo-Opaco-Vida;
+                            .VejezTitulo{
+                                font-size: $Tamaño-Titulo-Vida;
+                                color: $Color-Titulo;
+                                text-transform: uppercase;
+                            }
+                            .VejezTexto{
+                                font-size: $Tamaño-Letra-Vida;
+                                color: $Color-Titulo;
+                                padding: $Padding-Contenido-Vida;
+                            }
+                        }
+                }
+            .Gardel{
+                width: 100%;
+                background: url("http://www.correveidile.com.ar/uploads/AstorGardel2.jpg") 50% 50% no-repeat;
+                background-size: cover;
+                    .FondoOpaco{
+                        width: 100%;
+                        display: flex;
+                        flex-direction: column;
+                        background-color: $Fondo-Opaco-Vida;
+                        border-top: 0.3rem solid white;
+                            .GardelTitulo{
+                                display: flex;
+                                justify-content: center;
+                                font-size: $Tamaño-Titulo-Vida;
+                                color: $Color-Titulo;
+                                text-transform: uppercase;
+                            }
+                            .GardelTexto{
+                                font-size: $Tamaño-Letra-Vida;
+                                color: $Color-Titulo;
+                                padding: $Padding-Contenido-Vida;
+                                text-transform: uppercase;
+                            }
+                    }
+            }
+        }
+}
+/*--------------MUSICA----------fin---*/
