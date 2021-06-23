@@ -1,0 +1,181 @@
+#Musica{
+    background-image: url("https://quedigital.com.ar/web/wp-content/uploads/2021/02/Im%C3%A1genes-de-la-muestra-%E2%80%9CA-mi-amigo-Astor%E2%80%9D-de-Pupeto-Mastropascua-1.jpg");
+}
+.MusicaContenedor{
+    width: 100%;
+        .Musica{
+            display: flex;
+            flex-direction: column;
+                .RevolucionarioFotoyTexto{
+                    width: 100%;
+                    background-color: #8cad9c;
+                    display: flex;
+                        .RevolucionarioFoto{
+                            width: 20%;
+                                .RevolucionarioFoto__Img{
+                                    width: $Tamaño-Imagen-Musica;
+                                    height: 100%;
+                                }
+                        }
+                        .RevolucionarioTexto{
+                            width: 80%;
+                            text-align: center;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            flex-direction: column;
+                                .RevolucionarioTitulo{
+                                    width: 100%;
+                                    color: $Color-Titulo;
+                                    text-align: center;
+                                    font-size: $Musica-Tamaño-Inicial-Titulo;
+                                }
+                                .RevolucionarioParrafo{
+                                    width: 100%;
+                                    color: $Color-Titulo;
+                                    font-size: $Musica-Tamaño-Inicial-Parrafo ;
+                                    padding: 0 2rem;
+                                }
+                        }
+                }
+                .TriunfalFotoyTexto{
+                    width: 100%;
+                    background-color: #601800;
+                    display: flex;
+                        .TriunfalFoto{
+                            width: 20%;
+                                .TriunfalFoto__Img{
+                                    width: $Tamaño-Imagen-Musica;
+                                    height: 100%;
+                                }
+                        }
+                        .TriunfalTexto{
+                            width: 80%;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            flex-direction: column;
+                                .TriunfalTitulo{
+                                    width: 100%;
+                                    color: $Color-Titulo;
+                                    text-align: center;
+                                    font-size: $Musica-Tamaño-Inicial-Titulo;
+                                }
+                                .TriunfalParrafo{
+                                    width: 100%;
+                                    color: $Color-Titulo;
+                                    font-size: $Musica-Tamaño-Inicial-Parrafo;
+                                    padding: 0 2rem;
+                                    text-align: center;
+                                }
+                        }
+                }
+                .FugataFotoyTexto{
+                    width: 100%;
+                    background-color: #d1ccb4;
+                    display: flex;
+                        .FugataFoto{
+                            width: 20%;
+                                .FugataFoto__Img{
+                                    width: $Tamaño-Imagen-Musica;
+                                    height: 100%;
+                                }
+                        }
+                        .FugataTexto{
+                            width: 80%;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            flex-direction: column;
+                                .FugataTitulo{
+                                    width: 100%;
+                                    color: $Color-Titulo;
+                                    text-align: center;
+                                    font-size: $Musica-Tamaño-Inicial-Titulo;
+                                }
+                                .FugataParrafo{
+                                    width: 100%;
+                                    color: $Color-Titulo;
+                                    font-size: $Musica-Tamaño-Inicial-Parrafo;
+                                    padding: 0 2rem;
+                                    text-align: center;
+                                }
+                        }
+                }
+        }
+        .SeccionMusica{
+            width: 100%;
+            background: url("../Img/FondoMusicaYt.jpg") 50% 50% no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+                .Seccion1{
+                    display: flex;
+                    width: 100%;
+                    margin-bottom: 1rem;
+                        .ChinChin{
+                            width: 50%;
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            align-items: center;
+                                .ChinChinTitulo{
+                                    color: $Color-Titulo;
+                                    font-size: 2.5rem;
+                                }
+                                .ChinChinVideo{
+                                    opacity: 77%;
+                                    width: 40vw;
+                                }
+                        }
+                        .Decarisimo{
+                            width: 50%;
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            align-items: center;
+                                .DecarisimoTitulo{
+                                    color: $Color-Titulo;
+                                    font-size: 2.5rem;
+                                }
+                                .DecarisimoVideo{
+                                    opacity: 77%;
+                                    width: 40vw;
+                                }
+                        }
+                }
+                .Seccion2{
+                    display: flex;
+                    width: 100%;
+                        .Revirado{
+                            width: 50%;
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            align-items: center;
+                                .ReviradoTitulo{
+                                    color: $Color-Titulo;
+                                    font-size: 2.5rem;
+                                }
+                                .ReviradoVideo{
+                                    opacity: 77%;
+                                    width: 40vw;
+                                }
+                        }
+                        .Retrato{
+                            width: 50%;
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            align-items: center;
+                                .RetratoTitulo{
+                                    color: $Color-Titulo;
+                                    font-size: 2.5rem;
+                                }
+                                .RetratoVideo{
+                                    opacity: 77%;
+                                    width: 40vw;
+                                }
+                        }
+                }
+        }
+}

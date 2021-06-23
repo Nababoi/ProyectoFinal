@@ -1,4 +1,4 @@
-@media (max-width: 575.98px){
+@media (max-width: 768px){
     /*------------PRESENTACION------------index---*/
     .ContenedorIndex .DobleFondo{
             padding: 1.4rem;
@@ -103,5 +103,142 @@
             }
     }
     /*------------FOOTER-------------------------*/
+    /*------------BIOGRAFIA HTML-------------------------*/
+    .Vida .DobleFondo .Vida__Descripcion1{
+        display: flex;
+        flex-direction: column;
+            .Niñez{
+                width: 100%;
+                border-bottom: 0.3rem solid white;
+                border-right: none;
+                .FondoOpaco{
+                    .NiñezTexto{
+                        font-size: $Tamaño-Letra-768px-Bio-Vida;
+                    }
+            }
+        }
+            .Juventud{
+                width: 100%;
+                .FondoOpaco{
+                    .JuventudTexto{
+                        font-size: $Tamaño-Letra-768px-Bio-Vida;
+                    }
+            }        
+    }
+}
+    .Vida .DobleFondo .Vida__Descripcion2 .Vejez .VejezTexto{
+        font-size: $Tamaño-Letra-768px-Bio-Vida;
+    }
+
+    .Vida .Vida__Descripcion2 .Gardel .FondoOpaco .GardelTexto{
+        font-size: $Tamaño-Letra-768px-Bio-Vida;
+    }
+    
+    /*------------BIOGRAFIA HTML----------------------fin---*/
+    /*------------MUSICA HTML----------------------------*/
+    .MusicaContenedor .Musica .RevolucionarioFotoyTexto{
+        display: flex;
+        flex-direction: column;
+            .RevolucionarioFoto{
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                    .RevolucionarioFoto__Img{
+                        width: $Tamaño-Imagen-768-Musica;
+                    }
+            }
+            .RevolucionarioTexto{
+                width: 100%;
+                    .RevolucionarioTitulo{
+                        font-size: $Musica-Tamaño-768-Titulo;
+                    }
+                    .RevolucionarioParrafo{
+                        font-size: $Musica-Tamaño-768-Parrafo;
+                    }
+            }
+    }
+    
+    .MusicaContenedor .Musica .TriunfalFotoyTexto{
+        display: flex;
+        flex-direction: column;
+            .TriunfalFoto{
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                    .TriunfalFoto__Img{
+                        width: $Tamaño-Imagen-768-Musica;
+                    }
+            }
+            .TriunfalTexto{
+                width: 100%;
+                    .TriunfalTitulo{
+                        font-size: $Musica-Tamaño-768-Titulo;
+                    }
+                    .TriunfalParrafo{
+                        font-size: $Musica-Tamaño-768-Parrafo;
+                    }
+            }
+    }
+    .MusicaContenedor .Musica .FugataFotoyTexto{
+        display: flex;
+        flex-direction: column;
+            .FugataFoto{
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                    .FugataFoto__Img{
+                        width: $Tamaño-Imagen-768-Musica;
+                    }
+            }
+            .FugataTexto{
+                width: 100%;
+                    .FugataTitulo{
+                        font-size: $Musica-Tamaño-768-Titulo;
+                    }
+                    .FugataParrafo{
+                        font-size: $Musica-Tamaño-768-Parrafo;
+                    }
+            }
+    }
+    /*------------MUSICA DATOS-------------*/
+    .MusicaContenedor .SeccionMusica .Seccion1{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 0;
+            .ChinChin{
+                width: 100%;
+                margin: 0 0 1.5rem 0;
+                .ChinChinVideo{
+                    width: 90vw;
+                }
+            }
+            .Decarisimo{
+                width: 100%;
+                margin: 0 0 1.5rem 0;
+                .DecarisimoVideo{
+                    width: 90vw;
+                }
+            }
+    }
+    .MusicaContenedor .SeccionMusica .Seccion2{
+        display: flex;
+        flex-direction: column;
+            .Revirado{
+                width: 100%;
+                margin: 0 0 1.5rem 0;
+                .ReviradoVideo{
+                    width: 90vw;
+                }
+            }
+            .Retrato{
+                width: 100%;
+                margin: 0 0 1.5rem 0;
+                .RetratoVideo{
+                    width: 90vw;
+                }
+            }
+    }
+    /*------------MUSICA DATOS----------fin---*/
+    /*------------MUSICA HTML-------------------------fin---*/
     }
     

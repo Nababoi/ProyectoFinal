@@ -1,5 +1,5 @@
-/*--------------MUSICA-------------*/
-#Musica{
+/*--------------Bio-------------*/
+#Bio{
     background-image: url("https://media.elestimulo.com/2021/03/FOTO-PRINCIPAL-1-960x572.jpg");
 }
 .Vida{
@@ -34,7 +34,7 @@
                                     width: 100%;
                                 }
                                 .NiñezTexto{
-                                    font-size: $Tamaño-Letra-Vida;
+                                    font-size: $Tamaño-Letra-Inicial-Bio-Vida;
                                     color: $Color-Titulo;
                                     padding: $Padding-Contenido-Vida;
                                 }
@@ -58,7 +58,7 @@
                                     color: $Color-Titulo;
                                 }
                                 .JuventudTexto{
-                                    font-size: $Tamaño-Letra-Vida;
+                                    font-size: $Tamaño-Letra-Inicial-Bio-Vida;
                                     color: $Color-Titulo;
                                     padding: $Padding-Contenido-Vida;
                                 }
@@ -82,26 +82,48 @@
                             flex-direction: column;
                             justify-content: center;
                             align-items: center;
+                            height: 23rem;
                             background-color: $Fondo-Opaco-Vida;
                             .VejezTitulo{
                                 font-size: $Tamaño-Titulo-Vida;
                                 color: $Color-Titulo;
                                 text-transform: uppercase;
+                                display: flex;
+                                align-items: center;
+                                height: 20%;
+                            }
+                            .CentrarLinea{
+                                width: 100%;
+                                height: 20%;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                .Linea{
+                                    width: 20rem;
+                                    position: absolute;
+                                    display: flex;
+                                    background-color: white;
+                                    height: 0.3rem;
+                                }
                             }
                             .VejezTexto{
-                                font-size: $Tamaño-Letra-Vida;
+                                font-size: $Tamaño-Letra-Inicial-Bio-Vida;
                                 color: $Color-Titulo;
                                 padding: $Padding-Contenido-Vida;
+                                height: 30%;
+                                text-align: center;
+                                margin-bottom: 0;
                             }
                         }
                 }
             .Gardel{
                 width: 100%;
-                background: url("http://www.correveidile.com.ar/uploads/AstorGardel2.jpg") 50% 50% no-repeat;
+                background: url("https://images.clarin.com/2021/02/23/otra-escena-de-el-dia___7F_chvEsp_720x0__1.jpg") 50% 50% no-repeat;
                 background-size: cover;
                     .FondoOpaco{
                         width: 100%;
                         display: flex;
+                        height: 23rem;
                         flex-direction: column;
                         background-color: $Fondo-Opaco-Vida;
                         border-top: 0.3rem solid white;
@@ -111,15 +133,42 @@
                                 font-size: $Tamaño-Titulo-Vida;
                                 color: $Color-Titulo;
                                 text-transform: uppercase;
+                                height: 20%;
+                                display: flex;
+                                align-items: center;
+                            }
+                            .CentrarLinea{
+                                width: 100%;
+                                height: 20%;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                height: 20%;
+                                .Linea{
+                                    width: 20rem;
+                                    position: absolute;
+                                    display: flex;
+                                    background-color: white;
+                                    height: 0.3rem;
+                                }
                             }
                             .GardelTexto{
-                                font-size: $Tamaño-Letra-Vida;
+                                font-size: $Tamaño-Letra-Inicial-Bio-Vida;
                                 color: $Color-Titulo;
                                 padding: $Padding-Contenido-Vida;
                                 text-transform: uppercase;
+                                text-align: center;
+                                height: 30%;
+                                margin: 0;
+                                display: flex;
+                                align-items: center;
                             }
                     }
             }
         }
 }
-/*--------------MUSICA----------fin---*/
+
+#GardelyPiazzolla{
+    background-image: url("http://www.correveidile.com.ar/uploads/AstorGardel2.jpg");
+}
+/*--------------Bio----------fin---*/

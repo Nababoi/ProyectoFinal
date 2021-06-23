@@ -1,5 +1,11 @@
 @charset "UTF-8";
 /*$Ancho-Vida: width(100%);*/
+/*------Seccion de la biografia en Bio--------*/
+/*------Seccion de la biografia en Bio-----fin---*/
+/*------Seccion albunmes en Musica------*/
+/*-----768px------*/
+/*-----768px---fin---*/
+/*------Seccion albunmes en Musica---fin---*/
 /*-----------------APLICABLE A TODAS LAS SECCIONES-----------------*/
 body {
   background-color: black !important; }
@@ -240,8 +246,8 @@ body {
         border-radius: 1rem; }
 
 /*-----------------SECCION DE LA MUSICA EN EL INDEX-------Fin---*/
-/*--------------MUSICA-------------*/
-#Musica {
+/*--------------Bio-------------*/
+#Bio {
   background-image: url("https://media.elestimulo.com/2021/03/FOTO-PRINCIPAL-1-960x572.jpg"); }
 
 .Vida {
@@ -262,7 +268,7 @@ body {
         background-size: cover;
         border-right: 0.3rem solid white; }
         .Vida .DobleFondo .Vida__Descripcion1 .Niñez .FondoOpaco {
-          background-color: rgba(0, 0, 0, 0.5);
+          background-color: rgba(0, 0, 0, 0.6);
           display: flex;
           flex-direction: column;
           height: 100%;
@@ -275,7 +281,7 @@ body {
             color: white;
             width: 100%; }
           .Vida .DobleFondo .Vida__Descripcion1 .Niñez .FondoOpaco .NiñezTexto {
-            font-size: 1.5rem;
+            font-size: 1.8vw;
             color: white;
             padding: 0 3rem; }
       .Vida .DobleFondo .Vida__Descripcion1 .Juventud {
@@ -287,7 +293,7 @@ body {
           flex-direction: column;
           height: 100%;
           align-items: center;
-          background-color: rgba(0, 0, 0, 0.5); }
+          background-color: rgba(0, 0, 0, 0.6); }
           .Vida .DobleFondo .Vida__Descripcion1 .Juventud .FondoOpaco .JuventudTitulo {
             display: flex;
             justify-content: center;
@@ -295,7 +301,7 @@ body {
             font-size: 2.2rem;
             color: white; }
           .Vida .DobleFondo .Vida__Descripcion1 .Juventud .FondoOpaco .JuventudTexto {
-            font-size: 1.5rem;
+            font-size: 1.8vw;
             color: white;
             padding: 0 3rem; }
   .Vida .Vida__Descripcion2 {
@@ -314,39 +320,230 @@ body {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        background-color: rgba(0, 0, 0, 0.5); }
+        height: 23rem;
+        background-color: rgba(0, 0, 0, 0.6); }
         .Vida .Vida__Descripcion2 .Vejez .FondoOpaco .VejezTitulo {
           font-size: 2.2rem;
           color: white;
-          text-transform: uppercase; }
+          text-transform: uppercase;
+          display: flex;
+          align-items: center;
+          height: 20%; }
+        .Vida .Vida__Descripcion2 .Vejez .FondoOpaco .CentrarLinea {
+          width: 100%;
+          height: 20%;
+          display: flex;
+          justify-content: center;
+          align-items: center; }
+          .Vida .Vida__Descripcion2 .Vejez .FondoOpaco .CentrarLinea .Linea {
+            width: 20rem;
+            position: absolute;
+            display: flex;
+            background-color: white;
+            height: 0.3rem; }
         .Vida .Vida__Descripcion2 .Vejez .FondoOpaco .VejezTexto {
-          font-size: 1.5rem;
+          font-size: 1.8vw;
           color: white;
-          padding: 0 3rem; }
+          padding: 0 3rem;
+          height: 30%;
+          text-align: center;
+          margin-bottom: 0; }
     .Vida .Vida__Descripcion2 .Gardel {
       width: 100%;
-      background: url("http://www.correveidile.com.ar/uploads/AstorGardel2.jpg") 50% 50% no-repeat;
+      background: url("https://images.clarin.com/2021/02/23/otra-escena-de-el-dia___7F_chvEsp_720x0__1.jpg") 50% 50% no-repeat;
       background-size: cover; }
       .Vida .Vida__Descripcion2 .Gardel .FondoOpaco {
         width: 100%;
         display: flex;
+        height: 23rem;
         flex-direction: column;
-        background-color: rgba(0, 0, 0, 0.5);
+        background-color: rgba(0, 0, 0, 0.6);
         border-top: 0.3rem solid white; }
         .Vida .Vida__Descripcion2 .Gardel .FondoOpaco .GardelTitulo {
           display: flex;
           justify-content: center;
           font-size: 2.2rem;
           color: white;
-          text-transform: uppercase; }
+          text-transform: uppercase;
+          height: 20%;
+          display: flex;
+          align-items: center; }
+        .Vida .Vida__Descripcion2 .Gardel .FondoOpaco .CentrarLinea {
+          width: 100%;
+          height: 20%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 20%; }
+          .Vida .Vida__Descripcion2 .Gardel .FondoOpaco .CentrarLinea .Linea {
+            width: 20rem;
+            position: absolute;
+            display: flex;
+            background-color: white;
+            height: 0.3rem; }
         .Vida .Vida__Descripcion2 .Gardel .FondoOpaco .GardelTexto {
-          font-size: 1.5rem;
+          font-size: 1.8vw;
           color: white;
           padding: 0 3rem;
-          text-transform: uppercase; }
+          text-transform: uppercase;
+          text-align: center;
+          height: 30%;
+          margin: 0;
+          display: flex;
+          align-items: center; }
 
-/*--------------MUSICA----------fin---*/
-@media (max-width: 575.98px) {
+#GardelyPiazzolla {
+  background-image: url("http://www.correveidile.com.ar/uploads/AstorGardel2.jpg"); }
+
+/*--------------Bio----------fin---*/
+#Musica {
+  background-image: url("https://quedigital.com.ar/web/wp-content/uploads/2021/02/Im%C3%A1genes-de-la-muestra-%E2%80%9CA-mi-amigo-Astor%E2%80%9D-de-Pupeto-Mastropascua-1.jpg"); }
+
+.MusicaContenedor {
+  width: 100%; }
+  .MusicaContenedor .Musica {
+    display: flex;
+    flex-direction: column; }
+    .MusicaContenedor .Musica .RevolucionarioFotoyTexto {
+      width: 100%;
+      background-color: #8cad9c;
+      display: flex; }
+      .MusicaContenedor .Musica .RevolucionarioFotoyTexto .RevolucionarioFoto {
+        width: 20%; }
+        .MusicaContenedor .Musica .RevolucionarioFotoyTexto .RevolucionarioFoto .RevolucionarioFoto__Img {
+          width: 18vw;
+          height: 100%; }
+      .MusicaContenedor .Musica .RevolucionarioFotoyTexto .RevolucionarioTexto {
+        width: 80%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column; }
+        .MusicaContenedor .Musica .RevolucionarioFotoyTexto .RevolucionarioTexto .RevolucionarioTitulo {
+          width: 100%;
+          color: white;
+          text-align: center;
+          font-size: 3vw; }
+        .MusicaContenedor .Musica .RevolucionarioFotoyTexto .RevolucionarioTexto .RevolucionarioParrafo {
+          width: 100%;
+          color: white;
+          font-size: 1.5vw;
+          padding: 0 2rem; }
+    .MusicaContenedor .Musica .TriunfalFotoyTexto {
+      width: 100%;
+      background-color: #601800;
+      display: flex; }
+      .MusicaContenedor .Musica .TriunfalFotoyTexto .TriunfalFoto {
+        width: 20%; }
+        .MusicaContenedor .Musica .TriunfalFotoyTexto .TriunfalFoto .TriunfalFoto__Img {
+          width: 18vw;
+          height: 100%; }
+      .MusicaContenedor .Musica .TriunfalFotoyTexto .TriunfalTexto {
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column; }
+        .MusicaContenedor .Musica .TriunfalFotoyTexto .TriunfalTexto .TriunfalTitulo {
+          width: 100%;
+          color: white;
+          text-align: center;
+          font-size: 3vw; }
+        .MusicaContenedor .Musica .TriunfalFotoyTexto .TriunfalTexto .TriunfalParrafo {
+          width: 100%;
+          color: white;
+          font-size: 1.5vw;
+          padding: 0 2rem;
+          text-align: center; }
+    .MusicaContenedor .Musica .FugataFotoyTexto {
+      width: 100%;
+      background-color: #d1ccb4;
+      display: flex; }
+      .MusicaContenedor .Musica .FugataFotoyTexto .FugataFoto {
+        width: 20%; }
+        .MusicaContenedor .Musica .FugataFotoyTexto .FugataFoto .FugataFoto__Img {
+          width: 18vw;
+          height: 100%; }
+      .MusicaContenedor .Musica .FugataFotoyTexto .FugataTexto {
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column; }
+        .MusicaContenedor .Musica .FugataFotoyTexto .FugataTexto .FugataTitulo {
+          width: 100%;
+          color: white;
+          text-align: center;
+          font-size: 3vw; }
+        .MusicaContenedor .Musica .FugataFotoyTexto .FugataTexto .FugataParrafo {
+          width: 100%;
+          color: white;
+          font-size: 1.5vw;
+          padding: 0 2rem;
+          text-align: center; }
+  .MusicaContenedor .SeccionMusica {
+    width: 100%;
+    background: url("../Img/FondoMusicaYt.jpg") 50% 50% no-repeat;
+    background-size: cover;
+    background-attachment: fixed; }
+    .MusicaContenedor .SeccionMusica .Seccion1 {
+      display: flex;
+      width: 100%;
+      margin-bottom: 1rem; }
+      .MusicaContenedor .SeccionMusica .Seccion1 .ChinChin {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; }
+        .MusicaContenedor .SeccionMusica .Seccion1 .ChinChin .ChinChinTitulo {
+          color: white;
+          font-size: 2.5rem; }
+        .MusicaContenedor .SeccionMusica .Seccion1 .ChinChin .ChinChinVideo {
+          opacity: 77%;
+          width: 40vw; }
+      .MusicaContenedor .SeccionMusica .Seccion1 .Decarisimo {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; }
+        .MusicaContenedor .SeccionMusica .Seccion1 .Decarisimo .DecarisimoTitulo {
+          color: white;
+          font-size: 2.5rem; }
+        .MusicaContenedor .SeccionMusica .Seccion1 .Decarisimo .DecarisimoVideo {
+          opacity: 77%;
+          width: 40vw; }
+    .MusicaContenedor .SeccionMusica .Seccion2 {
+      display: flex;
+      width: 100%; }
+      .MusicaContenedor .SeccionMusica .Seccion2 .Revirado {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; }
+        .MusicaContenedor .SeccionMusica .Seccion2 .Revirado .ReviradoTitulo {
+          color: white;
+          font-size: 2.5rem; }
+        .MusicaContenedor .SeccionMusica .Seccion2 .Revirado .ReviradoVideo {
+          opacity: 77%;
+          width: 40vw; }
+      .MusicaContenedor .SeccionMusica .Seccion2 .Retrato {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; }
+        .MusicaContenedor .SeccionMusica .Seccion2 .Retrato .RetratoTitulo {
+          color: white;
+          font-size: 2.5rem; }
+        .MusicaContenedor .SeccionMusica .Seccion2 .Retrato .RetratoVideo {
+          opacity: 77%;
+          width: 40vw; }
+
+@media (max-width: 768px) {
   /*------------PRESENTACION------------index---*/
   .ContenedorIndex .DobleFondo {
     padding: 1.4rem; }
@@ -422,4 +619,99 @@ body {
       margin: 0.7rem 0 0 0; }
       .Footer .Redes .Red {
         height: 1.4rem; }
-  /*------------FOOTER-------------------------*/ }
+  /*------------FOOTER-------------------------*/
+  /*------------BIOGRAFIA HTML-------------------------*/
+  .Vida .DobleFondo .Vida__Descripcion1 {
+    display: flex;
+    flex-direction: column; }
+    .Vida .DobleFondo .Vida__Descripcion1 .Niñez {
+      width: 100%;
+      border-bottom: 0.3rem solid white;
+      border-right: none; }
+      .Vida .DobleFondo .Vida__Descripcion1 .Niñez .FondoOpaco .NiñezTexto {
+        font-size: 2.3vw; }
+    .Vida .DobleFondo .Vida__Descripcion1 .Juventud {
+      width: 100%; }
+      .Vida .DobleFondo .Vida__Descripcion1 .Juventud .FondoOpaco .JuventudTexto {
+        font-size: 2.3vw; }
+  .Vida .DobleFondo .Vida__Descripcion2 .Vejez .VejezTexto {
+    font-size: 2.3vw; }
+  .Vida .Vida__Descripcion2 .Gardel .FondoOpaco .GardelTexto {
+    font-size: 2.3vw; }
+  /*------------BIOGRAFIA HTML----------------------fin---*/
+  /*------------MUSICA HTML----------------------------*/
+  .MusicaContenedor .Musica .RevolucionarioFotoyTexto {
+    display: flex;
+    flex-direction: column; }
+    .MusicaContenedor .Musica .RevolucionarioFotoyTexto .RevolucionarioFoto {
+      width: 100%;
+      display: flex;
+      justify-content: center; }
+      .MusicaContenedor .Musica .RevolucionarioFotoyTexto .RevolucionarioFoto .RevolucionarioFoto__Img {
+        width: 28vw; }
+    .MusicaContenedor .Musica .RevolucionarioFotoyTexto .RevolucionarioTexto {
+      width: 100%; }
+      .MusicaContenedor .Musica .RevolucionarioFotoyTexto .RevolucionarioTexto .RevolucionarioTitulo {
+        font-size: 4.6vw; }
+      .MusicaContenedor .Musica .RevolucionarioFotoyTexto .RevolucionarioTexto .RevolucionarioParrafo {
+        font-size: 2.1vw; }
+  .MusicaContenedor .Musica .TriunfalFotoyTexto {
+    display: flex;
+    flex-direction: column; }
+    .MusicaContenedor .Musica .TriunfalFotoyTexto .TriunfalFoto {
+      width: 100%;
+      display: flex;
+      justify-content: center; }
+      .MusicaContenedor .Musica .TriunfalFotoyTexto .TriunfalFoto .TriunfalFoto__Img {
+        width: 28vw; }
+    .MusicaContenedor .Musica .TriunfalFotoyTexto .TriunfalTexto {
+      width: 100%; }
+      .MusicaContenedor .Musica .TriunfalFotoyTexto .TriunfalTexto .TriunfalTitulo {
+        font-size: 4.6vw; }
+      .MusicaContenedor .Musica .TriunfalFotoyTexto .TriunfalTexto .TriunfalParrafo {
+        font-size: 2.1vw; }
+  .MusicaContenedor .Musica .FugataFotoyTexto {
+    display: flex;
+    flex-direction: column; }
+    .MusicaContenedor .Musica .FugataFotoyTexto .FugataFoto {
+      width: 100%;
+      display: flex;
+      justify-content: center; }
+      .MusicaContenedor .Musica .FugataFotoyTexto .FugataFoto .FugataFoto__Img {
+        width: 28vw; }
+    .MusicaContenedor .Musica .FugataFotoyTexto .FugataTexto {
+      width: 100%; }
+      .MusicaContenedor .Musica .FugataFotoyTexto .FugataTexto .FugataTitulo {
+        font-size: 4.6vw; }
+      .MusicaContenedor .Musica .FugataFotoyTexto .FugataTexto .FugataParrafo {
+        font-size: 2.1vw; }
+  /*------------MUSICA DATOS-------------*/
+  .MusicaContenedor .SeccionMusica .Seccion1 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0; }
+    .MusicaContenedor .SeccionMusica .Seccion1 .ChinChin {
+      width: 100%;
+      margin: 0 0 1.5rem 0; }
+      .MusicaContenedor .SeccionMusica .Seccion1 .ChinChin .ChinChinVideo {
+        width: 90vw; }
+    .MusicaContenedor .SeccionMusica .Seccion1 .Decarisimo {
+      width: 100%;
+      margin: 0 0 1.5rem 0; }
+      .MusicaContenedor .SeccionMusica .Seccion1 .Decarisimo .DecarisimoVideo {
+        width: 90vw; }
+  .MusicaContenedor .SeccionMusica .Seccion2 {
+    display: flex;
+    flex-direction: column; }
+    .MusicaContenedor .SeccionMusica .Seccion2 .Revirado {
+      width: 100%;
+      margin: 0 0 1.5rem 0; }
+      .MusicaContenedor .SeccionMusica .Seccion2 .Revirado .ReviradoVideo {
+        width: 90vw; }
+    .MusicaContenedor .SeccionMusica .Seccion2 .Retrato {
+      width: 100%;
+      margin: 0 0 1.5rem 0; }
+      .MusicaContenedor .SeccionMusica .Seccion2 .Retrato .RetratoVideo {
+        width: 90vw; }
+  /*------------MUSICA DATOS----------fin---*/
+  /*------------MUSICA HTML-------------------------fin---*/ }
