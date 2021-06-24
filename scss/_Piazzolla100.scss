@@ -1,0 +1,59 @@
+#P100{
+    background-image: url("https://rafaelbarriga.files.wordpress.com/2012/06/astor-piazzolla-astor-piazzolla-png.png");
+}
+.FondoFunciones{
+    background: url("https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Argentina_-_Buenos_Aires_-_Teatro_Col%C3%B3n_%28sala%29.JPG/1200px-Argentina_-_Buenos_Aires_-_Teatro_Col%C3%B3n_%28sala%29.JPG") no-repeat 50% 91%;
+    background-attachment: fixed;
+    background-size: cover;
+    .ContenedorFunciones{
+        background-color: rgba(255, 255, 255, .7);
+        display: flex;
+        width: 78vw;
+        margin: auto;
+        margin-top: 2rem;
+        color: black;
+        border-radius: 0.8rem;
+            .FilaFunciones{
+                width: 50%;
+                    .FotoFunciones{
+                        width: 100%;
+                        height: 100%;
+                        border-radius: 0.8rem 0 0 0.8rem;
+                    }
+            }
+            .TextoFunciones{
+                
+            
+                text-align: center;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+                width: 50%;
+                
+                    .PequeñaFunciones{
+                        font-size: 1.2rem;
+                        display: flex;
+                        justify-self: start;
+                        margin-left: 3vw;
+                        margin-top: 1rem;
+                    }
+                    .TituloFuncionesP{
+                        font-size: 3.5vw;
+                        text-transform: uppercase;
+                    }
+                    .LinkFunciones{
+                        text-decoration: none;
+                        color: white;
+                        display: inline;
+                        width: 80%;
+                        align-self: center;
+                        background-color: #B19D07;
+                        border-radius: 0.4rem;
+                        margin-bottom: 1rem;
+                        font-size: 1.7vw;
+                        text-transform: uppercase;
+                        
+                    }
+            }
+    }
+}

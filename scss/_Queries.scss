@@ -1,5 +1,17 @@
 @media (max-width: 768px){
     /*------------PRESENTACION------------index---*/
+    #TroiloAlto{
+        height: 74vh;
+            #TroiloAltoTitulo{
+                height: 35%;
+            }
+            #TroiloAltoLinea{
+                height: 10%;
+            }
+            #TroiloAltoLetras{
+                height: 40%;
+            }
+    }
     .ContenedorIndex .DobleFondo{
             padding: 1.4rem;
         
@@ -8,24 +20,37 @@
                 .FondoOpaco{
                     display: flex;
                     flex-direction: column;
+                    height: 36vh;
                         .FondoDescripcion__Presentacion{
                             width: 100%;
-                            font-size: 3vh;
-                            padding: 2rem;
-                            height: 100%;
+                            font-size: 7vw;
+                            height: 30%;
+                        }
+                        .CentrarLinea{
+                            width: 100%;
+                            height: 20%;
+                                .Linea{
+                                    width: 52vw;
+                                    height: 0.3rem;
+                                }
                         }
                         
                         .FondoDescripcion__Presentacion2{
                             width: 100%;
-                            font-size: 1.7vh;
+                            font-size: 3vw;
                             border-left: none;
-                            border-top: 0.7rem solid white;
-                            padding: 3rem;
+                            height: 50%;
                         }
                         
                 }
             }   
         }    
+        /*------------PRESENTACION------------index--fin---*/
+        /*----------------NavBar-----------------*/
+        .navbar-collapse{
+            background-color: rgba(0, 0, 0, .6);
+        }
+        /*----------------NavBar--------------fin---*/
     /*------------CARRUSEL---------------*/
     .carousel-caption{
         padding: 0 !important;
@@ -240,5 +265,28 @@
     }
     /*------------MUSICA DATOS----------fin---*/
     /*------------MUSICA HTML-------------------------fin---*/
+    /*------------PIAZZOLLA100 HTML----------------------------*/
+    .FondoFunciones .ContenedorFunciones{
+        display: flex;
+        flex-direction: column;
+        .FilaFunciones{
+            width: 100%;
+        }
+        .TextoFunciones{
+            width: 100%;
+            .TituloFuncionesP{
+                font-size: 5.5vw;
+            }
+            .LinkFunciones{
+                font-size: 3vw;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 43%;
+                height: 5vh;
+            }
+        }
+    }
+    /*------------PIAZZOLLA100 HTML-------------------------fin---*/
     }
     

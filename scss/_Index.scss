@@ -21,7 +21,7 @@
                 margin: 3rem 0 3rem 0;
                 border-radius: 0.7rem;
             .FondoDescripcion{
-                background: url("https://static.eldiario.es/clip/0e174474-d3b3-4f0c-90a4-0fcf82cac2de_16-9-aspect-ratio_default_1013593.jpg") no-repeat;
+                background: url("https://www.laportadacanada.com/userfiles/images/culturalnota1fo2.jpg") no-repeat;
                 background-size: cover;
                 width: 95%;
                 border-radius: 0.8rem;
@@ -31,17 +31,32 @@
                         justify-content: center;
                         position: relative;
                         background-color: rgba(0,0,0,.6);
+                        height: 54vh;
                     .FondoDescripcion__Presentacion{
                         color: $Color-Titulo;
                         font-size: 5rem;
                         margin-bottom: 0;
-                        width: 50%;
+                        width: 45%;
                         height: 26rem;
                         display: flex;
                         justify-content: center;
                         align-items: center;
                         text-transform: uppercase;
                         text-align: center;
+                    }
+                    .CentrarLinea{
+                                width: 10%;
+                                height: 100%;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                .Linea{
+                                    width: 0.3rem;
+                                    position: absolute;
+                                    display: flex;
+                                    background-color: white;
+                                    height: 17rem;
+                                }
                     }
                     .FondoDescripcion__Presentacion2{
                         color: white;
@@ -50,8 +65,7 @@
                         text-align: center;
                         text-transform: uppercase;
                         margin-bottom: 0;
-                        width: 50%;
-                        border-left: 0.5rem white solid;
+                        width: 45%;
                         display: flex;
                         align-items: center;
                         justify-content: center;

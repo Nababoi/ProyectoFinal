@@ -141,6 +141,57 @@ body {
       padding: 0 1.4rem 0 0; }
 
 /*-----------------FOOTER-------------------fin---*/
+/*-----------------SECCION DE FUNCIONES------------*/
+.ContenedorFuncionesMayor {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 2rem; }
+  .ContenedorFuncionesMayor .ContenedorFuncionesSecciones {
+    display: flex;
+    flex-direction: column;
+    width: 27%;
+    background-color: white;
+    border-radius: 0.8rem;
+    margin-right: 2rem; }
+    .ContenedorFuncionesMayor .ContenedorFuncionesSecciones .FilaFuncionesSecciones {
+      width: 100%; }
+      .ContenedorFuncionesMayor .ContenedorFuncionesSecciones .FilaFuncionesSecciones .FotoFuncionesSecciones {
+        width: 100%;
+        height: 100%;
+        border-radius: 0.8rem 0 0 0; }
+    .ContenedorFuncionesMayor .ContenedorFuncionesSecciones .TextoFuncionesSecciones {
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      width: 100%;
+      height: 100%;
+      color: black;
+      margin-bottom: 1rem; }
+      .ContenedorFuncionesMayor .ContenedorFuncionesSecciones .TextoFuncionesSecciones .PequeñaFuncionesSecciones {
+        font-size: 0.8rem;
+        display: flex;
+        justify-self: start;
+        margin-left: 3vw;
+        margin-top: 1rem; }
+      .ContenedorFuncionesMayor .ContenedorFuncionesSecciones .TextoFuncionesSecciones .TituloFuncionesSecciones {
+        font-size: 2.9vw;
+        font-weight: 700; }
+      .ContenedorFuncionesMayor .ContenedorFuncionesSecciones .TextoFuncionesSecciones .LinkFuncionesSecciones {
+        text-decoration: none;
+        color: white;
+        font-size: 2vw;
+        background-color: #B19D07;
+        width: 80%;
+        display: inline;
+        align-self: center;
+        border-radius: 0.4rem; }
+
+#MarginNot {
+  margin-right: 0; }
+
+/*-----------------SECCION DE FUNCIONES------------fin---*/
 /*-----------------APLICABLE A TODAS LAS SECCIONES--------------fin---*/
 /*-----------------PRESENTACION DE LA PÁGINA--------------index---*/
 #Troilo {
@@ -165,7 +216,7 @@ body {
     margin: 3rem 0 3rem 0;
     border-radius: 0.7rem; }
     .ContenedorIndex .DobleFondo .FondoDescripcion {
-      background: url("https://static.eldiario.es/clip/0e174474-d3b3-4f0c-90a4-0fcf82cac2de_16-9-aspect-ratio_default_1013593.jpg") no-repeat;
+      background: url("https://www.laportadacanada.com/userfiles/images/culturalnota1fo2.jpg") no-repeat;
       background-size: cover;
       width: 95%;
       border-radius: 0.8rem;
@@ -174,18 +225,31 @@ body {
         display: flex;
         justify-content: center;
         position: relative;
-        background-color: rgba(0, 0, 0, 0.6); }
+        background-color: rgba(0, 0, 0, 0.6);
+        height: 54vh; }
         .ContenedorIndex .DobleFondo .FondoDescripcion .FondoOpaco .FondoDescripcion__Presentacion {
           color: white;
           font-size: 5rem;
           margin-bottom: 0;
-          width: 50%;
+          width: 45%;
           height: 26rem;
           display: flex;
           justify-content: center;
           align-items: center;
           text-transform: uppercase;
           text-align: center; }
+        .ContenedorIndex .DobleFondo .FondoDescripcion .FondoOpaco .CentrarLinea {
+          width: 10%;
+          height: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center; }
+          .ContenedorIndex .DobleFondo .FondoDescripcion .FondoOpaco .CentrarLinea .Linea {
+            width: 0.3rem;
+            position: absolute;
+            display: flex;
+            background-color: white;
+            height: 17rem; }
         .ContenedorIndex .DobleFondo .FondoDescripcion .FondoOpaco .FondoDescripcion__Presentacion2 {
           color: white;
           font-size: 1.5rem;
@@ -193,8 +257,7 @@ body {
           text-align: center;
           text-transform: uppercase;
           margin-bottom: 0;
-          width: 50%;
-          border-left: 0.5rem white solid;
+          width: 45%;
           display: flex;
           align-items: center;
           justify-content: center;
@@ -543,26 +606,92 @@ body {
           opacity: 77%;
           width: 40vw; }
 
+#P100 {
+  background-image: url("https://rafaelbarriga.files.wordpress.com/2012/06/astor-piazzolla-astor-piazzolla-png.png"); }
+
+.FondoFunciones {
+  background: url("https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Argentina_-_Buenos_Aires_-_Teatro_Col%C3%B3n_%28sala%29.JPG/1200px-Argentina_-_Buenos_Aires_-_Teatro_Col%C3%B3n_%28sala%29.JPG") no-repeat 50% 91%;
+  background-attachment: fixed;
+  background-size: cover; }
+  .FondoFunciones .ContenedorFunciones {
+    background-color: rgba(255, 255, 255, 0.7);
+    display: flex;
+    width: 78vw;
+    margin: auto;
+    margin-top: 2rem;
+    color: black;
+    border-radius: 0.8rem; }
+    .FondoFunciones .ContenedorFunciones .FilaFunciones {
+      width: 50%; }
+      .FondoFunciones .ContenedorFunciones .FilaFunciones .FotoFunciones {
+        width: 100%;
+        height: 100%;
+        border-radius: 0.8rem 0 0 0.8rem; }
+    .FondoFunciones .ContenedorFunciones .TextoFunciones {
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      width: 50%; }
+      .FondoFunciones .ContenedorFunciones .TextoFunciones .PequeñaFunciones {
+        font-size: 1.2rem;
+        display: flex;
+        justify-self: start;
+        margin-left: 3vw;
+        margin-top: 1rem; }
+      .FondoFunciones .ContenedorFunciones .TextoFunciones .TituloFuncionesP {
+        font-size: 3.5vw;
+        text-transform: uppercase; }
+      .FondoFunciones .ContenedorFunciones .TextoFunciones .LinkFunciones {
+        text-decoration: none;
+        color: white;
+        display: inline;
+        width: 80%;
+        align-self: center;
+        background-color: #B19D07;
+        border-radius: 0.4rem;
+        margin-bottom: 1rem;
+        font-size: 1.7vw;
+        text-transform: uppercase; }
+
 @media (max-width: 768px) {
   /*------------PRESENTACION------------index---*/
+  #TroiloAlto {
+    height: 74vh; }
+    #TroiloAlto #TroiloAltoTitulo {
+      height: 35%; }
+    #TroiloAlto #TroiloAltoLinea {
+      height: 10%; }
+    #TroiloAlto #TroiloAltoLetras {
+      height: 40%; }
   .ContenedorIndex .DobleFondo {
     padding: 1.4rem; }
     .ContenedorIndex .DobleFondo .FondoDescripcion {
       background-position: 39%; }
       .ContenedorIndex .DobleFondo .FondoDescripcion .FondoOpaco {
         display: flex;
-        flex-direction: column; }
+        flex-direction: column;
+        height: 36vh; }
         .ContenedorIndex .DobleFondo .FondoDescripcion .FondoOpaco .FondoDescripcion__Presentacion {
           width: 100%;
-          font-size: 3vh;
-          padding: 2rem;
-          height: 100%; }
+          font-size: 7vw;
+          height: 30%; }
+        .ContenedorIndex .DobleFondo .FondoDescripcion .FondoOpaco .CentrarLinea {
+          width: 100%;
+          height: 20%; }
+          .ContenedorIndex .DobleFondo .FondoDescripcion .FondoOpaco .CentrarLinea .Linea {
+            width: 52vw;
+            height: 0.3rem; }
         .ContenedorIndex .DobleFondo .FondoDescripcion .FondoOpaco .FondoDescripcion__Presentacion2 {
           width: 100%;
-          font-size: 1.7vh;
+          font-size: 3vw;
           border-left: none;
-          border-top: 0.7rem solid white;
-          padding: 3rem; }
+          height: 50%; }
+  /*------------PRESENTACION------------index--fin---*/
+  /*----------------NavBar-----------------*/
+  .navbar-collapse {
+    background-color: rgba(0, 0, 0, 0.6); }
+  /*----------------NavBar--------------fin---*/
   /*------------CARRUSEL---------------*/
   .carousel-caption {
     padding: 0 !important; }
@@ -714,4 +843,22 @@ body {
       .MusicaContenedor .SeccionMusica .Seccion2 .Retrato .RetratoVideo {
         width: 90vw; }
   /*------------MUSICA DATOS----------fin---*/
-  /*------------MUSICA HTML-------------------------fin---*/ }
+  /*------------MUSICA HTML-------------------------fin---*/
+  /*------------PIAZZOLLA100 HTML----------------------------*/
+  .FondoFunciones .ContenedorFunciones {
+    display: flex;
+    flex-direction: column; }
+    .FondoFunciones .ContenedorFunciones .FilaFunciones {
+      width: 100%; }
+    .FondoFunciones .ContenedorFunciones .TextoFunciones {
+      width: 100%; }
+      .FondoFunciones .ContenedorFunciones .TextoFunciones .TituloFuncionesP {
+        font-size: 5.5vw; }
+      .FondoFunciones .ContenedorFunciones .TextoFunciones .LinkFunciones {
+        font-size: 3vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 43%;
+        height: 5vh; }
+  /*------------PIAZZOLLA100 HTML-------------------------fin---*/ }
