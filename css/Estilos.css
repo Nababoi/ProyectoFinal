@@ -872,6 +872,7 @@ body {
   /*------------PIAZZOLLA100 HTML-------------------------fin---*/ }
 
 @media (max-width: 576px) {
+  /*------------INDEX HTML---------*/
   #PaddingTango {
     padding: 0 1rem; }
   #TroiloAlto {
@@ -885,4 +886,37 @@ body {
   .ContenedorIndex .DobleFondo .FondoDescripcion .FondoOpaco .CentrarLinea {
     height: 10%; }
   .ContenedorIndex .DobleFondo .FondoDescripcion .FondoOpaco .FondoDescripcion__Presentacion2 {
-    height: 38%; } }
+    height: 38%; }
+  /*------------INDEX HTML------fin---*/
+  /*------------BIOGRAFIA HTML---------*/
+  .Vida .DobleFondo .Vida__Descripcion1 .Niñez .FondoOpaco .NiñezTitulo {
+    font-size: 5.3vw; }
+  .Vida .DobleFondo .Vida__Descripcion1 .Niñez .FondoOpaco .NiñezTexto {
+    font-size: 3vw; }
+  .Vida .DobleFondo .Vida__Descripcion1 .Juventud .FondoOpaco .JuventudTitulo {
+    font-size: 5.3vw; }
+  .Vida .DobleFondo .Vida__Descripcion1 .Juventud .FondoOpaco .JuventudTexto {
+    font-size: 3vw; }
+  .Vida .DobleFondo .Vida__Descripcion2 .Vejez .VejezTitulo {
+    font-size: 5.3vw; }
+  .Vida .DobleFondo .Vida__Descripcion2 .Vejez .VejezTexto {
+    font-size: 2.7vw; }
+  .Vida .Vida__Descripcion2 .Gardel .FondoOpaco .GardelTitulo {
+    font-size: 5.3vw; }
+  .Vida .Vida__Descripcion2 .Gardel .FondoOpaco .GardelTexto {
+    font-size: 2.7vw; }
+  /*------------BIOGRAFIA HTML------fin---*/
+  /*------------MUSICA HTML----------*/
+  .MusicaContenedor .Musica .RevolucionarioFotoyTexto .RevolucionarioTexto .RevolucionarioTitulo {
+    font-size: 6.6vw; }
+  .MusicaContenedor .Musica .RevolucionarioFotoyTexto .RevolucionarioTexto .RevolucionarioParrafo {
+    font-size: 3.1vw; }
+  .MusicaContenedor .Musica .TriunfalFotoyTexto .TriunfalTexto .TriunfalTitulo {
+    font-size: 6.6vw; }
+  .MusicaContenedor .Musica .TriunfalFotoyTexto .TriunfalTexto .TriunfalParrafo {
+    font-size: 3.1vw; }
+  .MusicaContenedor .Musica .FugataFotoyTexto .FugataTexto .FugataTitulo {
+    font-size: 6.6vw; }
+  .MusicaContenedor .Musica .FugataFotoyTexto .FugataTexto .FugataParrafo {
+    font-size: 3.1vw; }
+  /*------------MUSICA HTML-------fin---*/ }
