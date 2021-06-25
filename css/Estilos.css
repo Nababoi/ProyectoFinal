@@ -664,6 +664,14 @@ body {
       height: 10%; }
     #TroiloAlto #TroiloAltoLetras {
       height: 40%; }
+  #OctetoTamaño {
+    height: 39vh; }
+    #OctetoTamaño #OctetoTamañoTitulo {
+      height: 25%; }
+    #OctetoTamaño #OctetoTamañoLinea {
+      height: 10%; }
+    #OctetoTamaño #OctetoTamañoLetras {
+      height: 50%; }
   .ContenedorIndex .DobleFondo {
     padding: 1.4rem; }
     .ContenedorIndex .DobleFondo .FondoDescripcion {
@@ -862,3 +870,19 @@ body {
         width: 43%;
         height: 5vh; }
   /*------------PIAZZOLLA100 HTML-------------------------fin---*/ }
+
+@media (max-width: 576px) {
+  #PaddingTango {
+    padding: 0 1rem; }
+  #TroiloAlto {
+    height: 68vh; }
+    #TroiloAlto #TroiloAltoTitulo {
+      font-size: 9vw; }
+  .ContenedorIndex .DobleFondo .FondoDescripcion {
+    background-attachment: unset; }
+  .ContenedorIndex .DobleFondo .FondoDescripcion .FondoOpaco .FondoDescripcion__Presentacion {
+    height: 25%; }
+  .ContenedorIndex .DobleFondo .FondoDescripcion .FondoOpaco .CentrarLinea {
+    height: 10%; }
+  .ContenedorIndex .DobleFondo .FondoDescripcion .FondoOpaco .FondoDescripcion__Presentacion2 {
+    height: 38%; } }
