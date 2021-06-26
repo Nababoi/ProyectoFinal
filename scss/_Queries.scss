@@ -1,4 +1,27 @@
+@media (max-width: 992px){
+    /*------------HERO Y NAVBAR------------all---*/
+    /*----------------NavBar-----------------*/
+    .navbar-collapse{
+        background-color: rgba(0, 0, 0, .6);
+    }
+    /*----------------NavBar--------------fin---*/
+    /*------------HERO Y NAVBAR------------all--fin-*/
+     /*------------PRESENTACION------------index---*/
+    .ContenedorIndex .DobleFondo .FondoDescripcion .FondoOpaco .FondoDescripcion__Presentacion{
+        font-size: 7vw;
+    }
+    .ContenedorIndex .DobleFondo .FondoDescripcion .FondoOpaco .FondoDescripcion__Presentacion2{
+        font-size: 2vw;
+    }
+    /*------------PRESENTACION------------index--fin---*/
+}
 @media (max-width: 768px){
+    /*------------HERO Y NAVBAR------------all---*/
+    .Hero .Hero__Content .Hero__Content__Titulo{
+        font-size: 6vw ;
+        background-color: rgba(0,0,0,.5);
+    }
+    /*------------HERO Y NAVBAR------------all--fin-*/
     /*------------PRESENTACION------------index---*/
     #TroiloAlto{
         height: 74vh;
@@ -58,11 +81,6 @@
             }   
         }    
         /*------------PRESENTACION------------index--fin---*/
-        /*----------------NavBar-----------------*/
-        .navbar-collapse{
-            background-color: rgba(0, 0, 0, .6);
-        }
-        /*----------------NavBar--------------fin---*/
     /*------------CARRUSEL---------------*/
     .carousel-caption{
         padding: 0 !important;
@@ -313,7 +331,11 @@
                     font-size: 9vw;
                 }
         }
-        
+        /*------------HERO Y NAVBAR------------all---*/
+    .Hero .Hero__Content .Hero__Content__Titulo{
+        font-size: 7vw ;
+    }
+    /*------------HERO Y NAVBAR------------all--fin-*/
         .ContenedorIndex .DobleFondo .FondoDescripcion{
             background-attachment:unset;
         }

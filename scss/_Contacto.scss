@@ -1,0 +1,67 @@
+#Contacto{
+    background:url("../Img/FondoContacto.jpg");
+    background-size: cover;
+        .ContenedorTituloYForm{
+                display: flex;
+                flex-direction: column;
+            #ContactoUbicacion{
+                display: flex;
+                justify-content: flex-start;
+                align-items: flex-start;
+                    #ContactoTexto{
+                        margin-right: 0;
+                        margin-left: 3rem;
+                    }
+            }
+    }
+}
+
+.Formulario{
+    width: 100%;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        .form-group{
+            width: 73%;
+            margin: auto;
+            color: white;
+            text-transform: uppercase;
+            margin-bottom:0.6rem;
+                .Nombre{
+                    margin-top: 2rem;
+                }
+        }
+        .ContactoTitulo{
+            color: #B19D07;
+            text-transform: uppercase;
+            margin-bottom: 2rem;
+
+            h2{
+                font-size: 3rem;
+                border-bottom: 0.5rem solid white;
+                display: inline;
+                background-color: rgba(0,0,0,.2)
+            }
+        }
+        .btn{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin:auto;
+            margin-top: 1rem;
+            margin-bottom: 2rem;
+        }
+
+            .btn-primary{
+                background-color: #B19D07;
+            }
+        .FondoFooterBlack{
+            background-color: rgba(0,0,0,.4);
+            width: 42%;
+            margin-bottom: 2rem;
+            border-radius: 0.5rem;
+            display: flex;
+            flex-direction: column;
+        }
+    }

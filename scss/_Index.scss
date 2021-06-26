@@ -5,6 +5,12 @@
 #Octeto{
     background-image: url("https://style.shockvisual.net/wp-content/uploads/2021/05/Octeto-Buenos-Aires-Astor-Piazzolla.jpg");
 }
+#MarginBottom{
+    margin-bottom: 3rem;
+}
+#MarginYesFunciones{
+    margin-bottom: 2rem;
+}
 .ContenedorIndex{
     width: 100%;
     position: relative;
@@ -18,7 +24,7 @@
                 justify-content: center;
                 background-color: $Fondo-Opaco-Marcos;
                 padding: 2rem 0 2rem 0;
-                margin: 3rem 0 3rem 0;
+                margin: 3rem 0 0 0;
                 border-radius: 0.7rem;
             .FondoDescripcion{
                 background: url("https://www.laportadacanada.com/userfiles/images/culturalnota1fo2.jpg") no-repeat;

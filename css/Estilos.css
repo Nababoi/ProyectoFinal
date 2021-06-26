@@ -11,6 +11,9 @@ body {
   background-color: black !important; }
 
 /*-----------------NAVBAR-----------------*/
+.NavBoton {
+  height: 2rem; }
+
 .Hero {
   background: url("https://cdnmundo1.img.sputniknews.com/img/07e5/03/0b/1109764838_0:432:2048:1584_1920x0_80_0_0_369734dff8483ddb0e168b6452419b70.jpg") no-repeat 50% 50%;
   background-size: cover;
@@ -200,6 +203,12 @@ body {
 #Octeto {
   background-image: url("https://style.shockvisual.net/wp-content/uploads/2021/05/Octeto-Buenos-Aires-Astor-Piazzolla.jpg"); }
 
+#MarginBottom {
+  margin-bottom: 3rem; }
+
+#MarginYesFunciones {
+  margin-bottom: 2rem; }
+
 .ContenedorIndex {
   width: 100%;
   position: relative;
@@ -213,7 +222,7 @@ body {
     justify-content: center;
     background-color: rgba(0, 0, 0, 0.7);
     padding: 2rem 0 2rem 0;
-    margin: 3rem 0 3rem 0;
+    margin: 3rem 0 0 0;
     border-radius: 0.7rem; }
     .ContenedorIndex .DobleFondo .FondoDescripcion {
       background: url("https://www.laportadacanada.com/userfiles/images/culturalnota1fo2.jpg") no-repeat;
@@ -612,7 +621,10 @@ body {
 .FondoFunciones {
   background: url("https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Argentina_-_Buenos_Aires_-_Teatro_Col%C3%B3n_%28sala%29.JPG/1200px-Argentina_-_Buenos_Aires_-_Teatro_Col%C3%B3n_%28sala%29.JPG") no-repeat 50% 91%;
   background-attachment: fixed;
-  background-size: cover; }
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
   .FondoFunciones .ContenedorFunciones {
     background-color: rgba(255, 255, 255, 0.7);
     display: flex;
@@ -654,7 +666,80 @@ body {
         font-size: 1.7vw;
         text-transform: uppercase; }
 
+#Contacto {
+  background: url("../Img/FondoContacto.jpg");
+  background-size: cover; }
+  #Contacto .ContenedorTituloYForm {
+    display: flex;
+    flex-direction: column; }
+    #Contacto .ContenedorTituloYForm #ContactoUbicacion {
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-start; }
+      #Contacto .ContenedorTituloYForm #ContactoUbicacion #ContactoTexto {
+        margin-right: 0;
+        margin-left: 3rem; }
+
+.Formulario {
+  width: 100%;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .Formulario .form-group {
+    width: 73%;
+    margin: auto;
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 0.6rem; }
+    .Formulario .form-group .Nombre {
+      margin-top: 2rem; }
+  .Formulario .ContactoTitulo {
+    color: #B19D07;
+    text-transform: uppercase;
+    margin-bottom: 2rem; }
+    .Formulario .ContactoTitulo h2 {
+      font-size: 3rem;
+      border-bottom: 0.5rem solid white;
+      display: inline;
+      background-color: rgba(0, 0, 0, 0.2); }
+  .Formulario .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 2rem; }
+  .Formulario .btn-primary {
+    background-color: #B19D07; }
+  .Formulario .FondoFooterBlack {
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 42%;
+    margin-bottom: 2rem;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column; }
+
+@media (max-width: 992px) {
+  /*------------HERO Y NAVBAR------------all---*/
+  /*----------------NavBar-----------------*/
+  .navbar-collapse {
+    background-color: rgba(0, 0, 0, 0.6); }
+  /*----------------NavBar--------------fin---*/
+  /*------------HERO Y NAVBAR------------all--fin-*/
+  /*------------PRESENTACION------------index---*/
+  .ContenedorIndex .DobleFondo .FondoDescripcion .FondoOpaco .FondoDescripcion__Presentacion {
+    font-size: 7vw; }
+  .ContenedorIndex .DobleFondo .FondoDescripcion .FondoOpaco .FondoDescripcion__Presentacion2 {
+    font-size: 2vw; }
+  /*------------PRESENTACION------------index--fin---*/ }
+
 @media (max-width: 768px) {
+  /*------------HERO Y NAVBAR------------all---*/
+  .Hero .Hero__Content .Hero__Content__Titulo {
+    font-size: 6vw;
+    background-color: rgba(0, 0, 0, 0.5); }
+  /*------------HERO Y NAVBAR------------all--fin-*/
   /*------------PRESENTACION------------index---*/
   #TroiloAlto {
     height: 74vh; }
@@ -696,10 +781,6 @@ body {
           border-left: none;
           height: 50%; }
   /*------------PRESENTACION------------index--fin---*/
-  /*----------------NavBar-----------------*/
-  .navbar-collapse {
-    background-color: rgba(0, 0, 0, 0.6); }
-  /*----------------NavBar--------------fin---*/
   /*------------CARRUSEL---------------*/
   .carousel-caption {
     padding: 0 !important; }
@@ -879,6 +960,10 @@ body {
     height: 68vh; }
     #TroiloAlto #TroiloAltoTitulo {
       font-size: 9vw; }
+  /*------------HERO Y NAVBAR------------all---*/
+  .Hero .Hero__Content .Hero__Content__Titulo {
+    font-size: 7vw; }
+  /*------------HERO Y NAVBAR------------all--fin-*/
   .ContenedorIndex .DobleFondo .FondoDescripcion {
     background-attachment: unset; }
   .ContenedorIndex .DobleFondo .FondoDescripcion .FondoOpaco .FondoDescripcion__Presentacion {
