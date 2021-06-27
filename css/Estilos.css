@@ -1005,3 +1005,11 @@ body {
   .MusicaContenedor .Musica .FugataFotoyTexto .FugataTexto .FugataParrafo {
     font-size: 3.1vw; }
   /*------------MUSICA HTML-------fin---*/ }
+
+@media (max-width: 360px) {
+  .Vida .DobleFondo .Vida__Descripcion2 .Vejez .VejezTexto {
+    font-size: 3.2vw; }
+  .Vida .Vida__Descripcion2 .Gardel .FondoOpaco .GardelTexto {
+    font-size: 3.2vw; }
+  .Vida .Vida__Descripcion2 .Gardel .FondoOpaco .CentrarLinea {
+    height: 10%; } }
