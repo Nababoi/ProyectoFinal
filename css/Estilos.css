@@ -26,7 +26,9 @@ body {
       font-size: 1.5rem;
       text-align: center; }
     .Hero .NavbarCustom .LogoBandoneon {
-      width: 88%; }
+      width: 10rem;
+      height: 9rem;
+      border-radius: 3rem; }
   .Hero .navbar-nav > li {
     /*--Le agrega espacios entre secciones--*/
     margin-right: 2rem; }
@@ -348,6 +350,7 @@ body {
           .Vida .DobleFondo .Vida__Descripcion1 .Niñez .FondoOpaco .NiñezTitulo {
             display: flex;
             justify-content: center;
+            padding: 1rem 0 0.5rem 0;
             text-transform: uppercase;
             font-size: 2.2rem;
             color: white;
@@ -370,6 +373,7 @@ body {
             display: flex;
             justify-content: center;
             text-transform: uppercase;
+            padding: 1rem 0 0.5rem 0;
             font-size: 2.2rem;
             color: white; }
           .Vida .DobleFondo .Vida__Descripcion1 .Juventud .FondoOpaco .JuventudTexto {
@@ -732,7 +736,20 @@ body {
     font-size: 7vw; }
   .ContenedorIndex .DobleFondo .FondoDescripcion .FondoOpaco .FondoDescripcion__Presentacion2 {
     font-size: 2vw; }
-  /*------------PRESENTACION------------index--fin---*/ }
+  /*------------PRESENTACION------------index--fin---*/
+  /*------------DATOS EXTRA------------index-----*/
+  .MusicaIndex .FondoOpaco {
+    display: flex;
+    flex-direction: column; }
+    .MusicaIndex .FondoOpaco .LetrasMusicaIndex {
+      width: 100%; }
+    .MusicaIndex .FondoOpaco .VideoMusicaIndex {
+      width: 100%; }
+  /*------------DATOS EXTRA------------index--fin---*/
+  /*-----------CONTACTO HTML----------*/
+  .Formulario .FondoFooterBlack {
+    width: 66%; }
+  /*-----------CONTACTO HTML-------fin---*/ }
 
 @media (max-width: 768px) {
   /*------------HERO Y NAVBAR------------all---*/
@@ -950,7 +967,11 @@ body {
         align-items: center;
         width: 43%;
         height: 5vh; }
-  /*------------PIAZZOLLA100 HTML-------------------------fin---*/ }
+  /*------------PIAZZOLLA100 HTML-------------------------fin---*/
+  /*-----------CONTACTO HTML----------*/
+  .Formulario .FondoFooterBlack {
+    width: 68%; }
+  /*-----------CONTACTO HTML-------fin---*/ }
 
 @media (max-width: 576px) {
   /*------------INDEX HTML---------*/

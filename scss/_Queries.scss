@@ -14,6 +14,23 @@
         font-size: 2vw;
     }
     /*------------PRESENTACION------------index--fin---*/
+    /*------------DATOS EXTRA------------index-----*/
+    .MusicaIndex .FondoOpaco{
+        display: flex;
+        flex-direction: column;
+            .LetrasMusicaIndex{
+                width: 100%;
+            }
+            .VideoMusicaIndex{
+                width: 100%;
+            }
+    }
+    /*------------DATOS EXTRA------------index--fin---*/
+    /*-----------CONTACTO HTML----------*/
+    .Formulario .FondoFooterBlack {
+        width: 66%;
+    }
+    /*-----------CONTACTO HTML-------fin---*/
 }
 @media (max-width: 768px){
     /*------------HERO Y NAVBAR------------all---*/
@@ -318,6 +335,11 @@
         }
     }
     /*------------PIAZZOLLA100 HTML-------------------------fin---*/
+    /*-----------CONTACTO HTML----------*/
+    .Formulario .FondoFooterBlack {
+        width: 68%;
+    }
+    /*-----------CONTACTO HTML-------fin---*/
     }
 
     @media (max-width: 576px){
