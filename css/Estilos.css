@@ -977,7 +977,7 @@ body {
     font-size: 3.1vw; }
   /*------------MUSICA HTML-------fin---*/ }
 
-@media (max-width: 360px) {
+@media (max-width: 450px) {
   /*-----------FOOTER HTML---------------*/
   .Footer .Copyright .Footer__Letras {
     font-size: 3.7vw; }
