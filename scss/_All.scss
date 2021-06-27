@@ -7,6 +7,10 @@ body{
 .NavBoton{
     height: 2rem;
 }
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
 .Hero{
     background: url("https://cdnmundo1.img.sputniknews.com/img/07e5/03/0b/1109764838_0:432:2048:1584_1920x0_80_0_0_369734dff8483ddb0e168b6452419b70.jpg") no-repeat 50% 50%;
     background-size: cover;
