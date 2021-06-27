@@ -103,79 +103,23 @@
                         }
                 }
         }
-        .SeccionMusica{
-            width: 100%;
-            background: url("../Img/FondoMusicaYt.jpg") 50% 50% no-repeat;
-            background-size: cover;
-            background-attachment: fixed;
+    }
+
+    .ContenedorMusicaIndividual{
+        width: 100%;
+            .ColumnasMusica{
+                width: 100%;
+                display: flex;
                 .Seccion1{
                     display: flex;
-                    width: 100%;
-                    margin-bottom: 1rem;
-                        .ChinChin{
-                            width: 50%;
-                            display: flex;
-                            flex-direction: column;
-                            justify-content: center;
-                            align-items: center;
-                                .ChinChinTitulo{
-                                    color: $Color-Titulo;
-                                    font-size: 2.5rem;
-                                }
-                                .ChinChinVideo{
-                                    opacity: 77%;
-                                    width: 40vw;
-                                }
+                    width: 50%;
+                        .Vendra{
+                            width: 100%;
                         }
-                        .Decarisimo{
-                            width: 50%;
-                            display: flex;
-                            flex-direction: column;
-                            justify-content: center;
-                            align-items: center;
-                                .DecarisimoTitulo{
-                                    color: $Color-Titulo;
-                                    font-size: 2.5rem;
-                                }
-                                .DecarisimoVideo{
-                                    opacity: 77%;
-                                    width: 40vw;
-                                }
+                        .Camorra{
+                            width: 100%
                         }
                 }
-                .Seccion2{
-                    display: flex;
-                    width: 100%;
-                        .Revirado{
-                            width: 50%;
-                            display: flex;
-                            flex-direction: column;
-                            justify-content: center;
-                            align-items: center;
-                                .ReviradoTitulo{
-                                    color: $Color-Titulo;
-                                    font-size: 2.5rem;
-                                }
-                                .ReviradoVideo{
-                                    opacity: 77%;
-                                    width: 40vw;
-                                }
-                        }
-                        .Retrato{
-                            width: 50%;
-                            display: flex;
-                            flex-direction: column;
-                            justify-content: center;
-                            align-items: center;
-                                .RetratoTitulo{
-                                    color: $Color-Titulo;
-                                    font-size: 2.5rem;
-                                }
-                                .RetratoVideo{
-                                    opacity: 77%;
-                                    width: 40vw;
-                                }
-                        }
-                }
-        }
-}
+            }
+    }
+        

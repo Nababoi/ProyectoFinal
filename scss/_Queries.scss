@@ -31,6 +31,17 @@
         width: 66%;
     }
     /*-----------CONTACTO HTML-------fin---*/
+    /*-------------MUSICA HTML-------------*/
+    /*------------MUSICA INDIVUAL---------musica----*/
+    .ContenedorMusicaIndividual .ColumnasMusica{
+        display: flex;
+        flex-direction: column;
+            .Seccion1{
+                width: 100%;
+            }
+    }
+    /*------------MUSICA INDIVUAL----------fin--musica-*/
+    /*-------------MUSICA HTML----------fin---*/
 }
 @media (max-width: 768px){
     /*------------HERO Y NAVBAR------------all---*/
@@ -272,45 +283,12 @@
                     }
             }
     }
-    /*------------MUSICA DATOS-------------*/
-    .MusicaContenedor .SeccionMusica .Seccion1{
+    /*------------MUSICA INDIVUAL---------musica----*/
+    .ContenedorMusicaIndividual .ColumnasMusica .Seccion1{
         display: flex;
         flex-direction: column;
-        margin-bottom: 0;
-            .ChinChin{
-                width: 100%;
-                margin: 0 0 1.5rem 0;
-                .ChinChinVideo{
-                    width: 90vw;
-                }
-            }
-            .Decarisimo{
-                width: 100%;
-                margin: 0 0 1.5rem 0;
-                .DecarisimoVideo{
-                    width: 90vw;
-                }
-            }
     }
-    .MusicaContenedor .SeccionMusica .Seccion2{
-        display: flex;
-        flex-direction: column;
-            .Revirado{
-                width: 100%;
-                margin: 0 0 1.5rem 0;
-                .ReviradoVideo{
-                    width: 90vw;
-                }
-            }
-            .Retrato{
-                width: 100%;
-                margin: 0 0 1.5rem 0;
-                .RetratoVideo{
-                    width: 90vw;
-                }
-            }
-    }
-    /*------------MUSICA DATOS----------fin---*/
+    /*------------MUSICA INDIVUAL----------fin--musica-*/
     /*------------MUSICA HTML-------------------------fin---*/
     /*------------PIAZZOLLA100 HTML----------------------------*/
     .FondoFunciones .ContenedorFunciones{

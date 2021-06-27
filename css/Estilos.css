@@ -562,66 +562,19 @@ body {
           font-size: 1.5vw;
           padding: 0 2rem;
           text-align: center; }
-  .MusicaContenedor .SeccionMusica {
+
+.ContenedorMusicaIndividual {
+  width: 100%; }
+  .ContenedorMusicaIndividual .ColumnasMusica {
     width: 100%;
-    background: url("../Img/FondoMusicaYt.jpg") 50% 50% no-repeat;
-    background-size: cover;
-    background-attachment: fixed; }
-    .MusicaContenedor .SeccionMusica .Seccion1 {
+    display: flex; }
+    .ContenedorMusicaIndividual .ColumnasMusica .Seccion1 {
       display: flex;
-      width: 100%;
-      margin-bottom: 1rem; }
-      .MusicaContenedor .SeccionMusica .Seccion1 .ChinChin {
-        width: 50%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center; }
-        .MusicaContenedor .SeccionMusica .Seccion1 .ChinChin .ChinChinTitulo {
-          color: white;
-          font-size: 2.5rem; }
-        .MusicaContenedor .SeccionMusica .Seccion1 .ChinChin .ChinChinVideo {
-          opacity: 77%;
-          width: 40vw; }
-      .MusicaContenedor .SeccionMusica .Seccion1 .Decarisimo {
-        width: 50%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center; }
-        .MusicaContenedor .SeccionMusica .Seccion1 .Decarisimo .DecarisimoTitulo {
-          color: white;
-          font-size: 2.5rem; }
-        .MusicaContenedor .SeccionMusica .Seccion1 .Decarisimo .DecarisimoVideo {
-          opacity: 77%;
-          width: 40vw; }
-    .MusicaContenedor .SeccionMusica .Seccion2 {
-      display: flex;
-      width: 100%; }
-      .MusicaContenedor .SeccionMusica .Seccion2 .Revirado {
-        width: 50%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center; }
-        .MusicaContenedor .SeccionMusica .Seccion2 .Revirado .ReviradoTitulo {
-          color: white;
-          font-size: 2.5rem; }
-        .MusicaContenedor .SeccionMusica .Seccion2 .Revirado .ReviradoVideo {
-          opacity: 77%;
-          width: 40vw; }
-      .MusicaContenedor .SeccionMusica .Seccion2 .Retrato {
-        width: 50%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center; }
-        .MusicaContenedor .SeccionMusica .Seccion2 .Retrato .RetratoTitulo {
-          color: white;
-          font-size: 2.5rem; }
-        .MusicaContenedor .SeccionMusica .Seccion2 .Retrato .RetratoVideo {
-          opacity: 77%;
-          width: 40vw; }
+      width: 50%; }
+      .ContenedorMusicaIndividual .ColumnasMusica .Seccion1 .Vendra {
+        width: 100%; }
+      .ContenedorMusicaIndividual .ColumnasMusica .Seccion1 .Camorra {
+        width: 100%; }
 
 #P100 {
   background-image: url("https://rafaelbarriga.files.wordpress.com/2012/06/astor-piazzolla-astor-piazzolla-png.png"); }
@@ -753,7 +706,16 @@ body {
   /*-----------CONTACTO HTML----------*/
   .Formulario .FondoFooterBlack {
     width: 66%; }
-  /*-----------CONTACTO HTML-------fin---*/ }
+  /*-----------CONTACTO HTML-------fin---*/
+  /*-------------MUSICA HTML-------------*/
+  /*------------MUSICA INDIVUAL---------musica----*/
+  .ContenedorMusicaIndividual .ColumnasMusica {
+    display: flex;
+    flex-direction: column; }
+    .ContenedorMusicaIndividual .ColumnasMusica .Seccion1 {
+      width: 100%; }
+  /*------------MUSICA INDIVUAL----------fin--musica-*/
+  /*-------------MUSICA HTML----------fin---*/ }
 
 @media (max-width: 768px) {
   /*------------HERO Y NAVBAR------------all---*/
@@ -924,35 +886,11 @@ body {
         font-size: 4.6vw; }
       .MusicaContenedor .Musica .FugataFotoyTexto .FugataTexto .FugataParrafo {
         font-size: 2.1vw; }
-  /*------------MUSICA DATOS-------------*/
-  .MusicaContenedor .SeccionMusica .Seccion1 {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 0; }
-    .MusicaContenedor .SeccionMusica .Seccion1 .ChinChin {
-      width: 100%;
-      margin: 0 0 1.5rem 0; }
-      .MusicaContenedor .SeccionMusica .Seccion1 .ChinChin .ChinChinVideo {
-        width: 90vw; }
-    .MusicaContenedor .SeccionMusica .Seccion1 .Decarisimo {
-      width: 100%;
-      margin: 0 0 1.5rem 0; }
-      .MusicaContenedor .SeccionMusica .Seccion1 .Decarisimo .DecarisimoVideo {
-        width: 90vw; }
-  .MusicaContenedor .SeccionMusica .Seccion2 {
+  /*------------MUSICA INDIVUAL---------musica----*/
+  .ContenedorMusicaIndividual .ColumnasMusica .Seccion1 {
     display: flex;
     flex-direction: column; }
-    .MusicaContenedor .SeccionMusica .Seccion2 .Revirado {
-      width: 100%;
-      margin: 0 0 1.5rem 0; }
-      .MusicaContenedor .SeccionMusica .Seccion2 .Revirado .ReviradoVideo {
-        width: 90vw; }
-    .MusicaContenedor .SeccionMusica .Seccion2 .Retrato {
-      width: 100%;
-      margin: 0 0 1.5rem 0; }
-      .MusicaContenedor .SeccionMusica .Seccion2 .Retrato .RetratoVideo {
-        width: 90vw; }
-  /*------------MUSICA DATOS----------fin---*/
+  /*------------MUSICA INDIVUAL----------fin--musica-*/
   /*------------MUSICA HTML-------------------------fin---*/
   /*------------PIAZZOLLA100 HTML----------------------------*/
   .FondoFunciones .ContenedorFunciones {
