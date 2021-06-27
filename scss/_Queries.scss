@@ -44,6 +44,7 @@
     /*-------------MUSICA HTML----------fin---*/
 }
 @media (max-width: 768px){
+    /*-----------FOOTER HTML------------fin---*/
     /*------------HERO Y NAVBAR------------all---*/
     .Hero .Hero__Content .Hero__Content__Titulo{
         font-size: 6vw ;
@@ -171,7 +172,7 @@
                 width: 100%;
                 margin: 1.3rem 0 0 0;
                     .Footer__Letras{
-                        font-size: 0.6rem;
+                        font-size: 1rem;
                     }
             }
             .Redes{
@@ -321,6 +322,11 @@
     }
 
     @media (max-width: 576px){
+     /*-----------FOOTER HTML---------------*/
+    .Footer .Copyright .Footer__Letras{
+        font-size: 3vw;
+    }
+    /*-----------FOOTER HTML------------fin---*/
         /*------------INDEX HTML---------*/
         #PaddingTango{
             padding: 0 1rem;
@@ -397,9 +403,14 @@
             font-size: 3.1vw;
         }
         /*------------MUSICA HTML-------fin---*/
-
     }
-    @media (max-width: 375px){
+
+    @media (max-width: 360px){
+        /*-----------FOOTER HTML---------------*/
+    .Footer .Copyright .Footer__Letras{
+        font-size: 3.7vw;
+    }
+    /*-----------FOOTER HTML------------fin---*/
         .Vida .DobleFondo .Vida__Descripcion2 .Vejez .VejezTexto{
             font-size: 3.2vw;
         }
@@ -414,11 +425,6 @@
             width: 84%;
         }
         /*-----------CONTACTO HTML-------fin---*/
-        /*-----------FOOTER HTML---------------*/
-        .Footer .Copyright .Footer__Letras{
-            font-size: 0.8rem;
-        }
-        /*-----------FOOTER HTML------------fin---*/
         /*-----------TAMAÑO DE LOGO PARA CELUS------------*/
         .Hero .NavbarCustom .LogoBandoneon{
             width: 7rem;
