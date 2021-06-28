@@ -52,6 +52,18 @@ body{
                 text-transform: uppercase;
                 color: $Color-Primario;
                 text-align: right;
+                animation-name: Colores;
+	            animation-duration: 5s;
+	            animation-iteration-count: infinite;
+
+                @keyframes Colores{
+                    0% {color: #B19D07}
+                    20%{color: #CCB507}
+                    40%{color: #E2CA12}
+                    60%{color: #CEBB2B}
+                    80%{color: #AE9D1F}
+                    100%{color: #B19D07}
+                }
             }
     }
 }
