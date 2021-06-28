@@ -18,6 +18,9 @@ body {
   padding-left: 0 !important;
   padding-right: 0 !important; }
 
+.navbar {
+  padding-top: 0 !important; }
+
 .Hero {
   background: url("https://cdnmundo1.img.sputniknews.com/img/07e5/03/0b/1109764838_0:432:2048:1584_1920x0_80_0_0_369734dff8483ddb0e168b6452419b70.jpg") no-repeat 50% 50%;
   background-size: cover;
@@ -229,7 +232,11 @@ body {
     background-color: rgba(0, 0, 0, 0.7);
     padding: 2rem 0 2rem 0;
     margin: 3rem 0 0 0;
-    border-radius: 0.7rem; }
+    border-radius: 0.7rem;
+    transition-duration: 1s;
+    transition-property: transform; }
+    .ContenedorIndex .DobleFondo:hover {
+      transform: translateY(-24px); }
     .ContenedorIndex .DobleFondo .FondoDescripcion {
       background: url("https://www.laportadacanada.com/userfiles/images/culturalnota1fo2.jpg") no-repeat;
       background-size: cover;
@@ -279,7 +286,7 @@ body {
           padding: 0 2rem 0 2rem; }
 
 /*-----------------PRESENTACION DE LA PÁGINA--------------Fin---*/
-/*-----------------SECCION DE LA MUSICA EN EL INDEX-------index---*/
+/*-----------------SECCION DE LA MUSICA EN EL INDEX(DATOS EXTRA)-------index---*/
 #Nonino {
   background-image: url("https://i0.wp.com/argentear.com/wp-content/uploads/2016/05/Piazzolla.jpg?fit=1500%2C803&ssl=1");
   background-size: cover; }
@@ -292,7 +299,11 @@ body {
     display: flex;
     align-items: center;
     background-color: rgba(0, 0, 0, 0.5);
-    padding: 2rem; }
+    padding: 2rem;
+    transition-property: background-color;
+    transition-duration: 3s; }
+    .MusicaIndex .FondoOpaco:hover {
+      background-color: rgba(0, 0, 0, 0.8); }
     .MusicaIndex .FondoOpaco .LetrasMusicaIndex {
       display: flex;
       flex-direction: column;
@@ -350,7 +361,11 @@ body {
           display: flex;
           flex-direction: column;
           height: 100%;
-          align-items: center; }
+          align-items: center;
+          transition-property: background-color;
+          transition-duration: 3s; }
+          .Vida .DobleFondo .Vida__Descripcion1 .Niñez .FondoOpaco:hover {
+            background-color: rgba(0, 0, 0, 0.77); }
           .Vida .DobleFondo .Vida__Descripcion1 .Niñez .FondoOpaco .NiñezTitulo {
             display: flex;
             justify-content: center;
@@ -372,7 +387,11 @@ body {
           flex-direction: column;
           height: 100%;
           align-items: center;
-          background-color: rgba(0, 0, 0, 0.6); }
+          background-color: rgba(0, 0, 0, 0.6);
+          transition-property: background-color;
+          transition-duration: 3s; }
+          .Vida .DobleFondo .Vida__Descripcion1 .Juventud .FondoOpaco:hover {
+            background-color: rgba(0, 0, 0, 0.77); }
           .Vida .DobleFondo .Vida__Descripcion1 .Juventud .FondoOpaco .JuventudTitulo {
             display: flex;
             justify-content: center;
@@ -401,7 +420,11 @@ body {
         justify-content: center;
         align-items: center;
         height: 23rem;
+        transition-property: background-color;
+        transition-duration: 3s;
         background-color: rgba(0, 0, 0, 0.6); }
+        .Vida .Vida__Descripcion2 .Vejez .FondoOpaco:hover {
+          background-color: rgba(0, 0, 0, 0.77); }
         .Vida .Vida__Descripcion2 .Vejez .FondoOpaco .VejezTitulo {
           font-size: 2.2rem;
           color: white;
@@ -438,7 +461,11 @@ body {
         height: 23rem;
         flex-direction: column;
         background-color: rgba(0, 0, 0, 0.6);
-        border-top: 0.3rem solid white; }
+        border-top: 0.3rem solid white;
+        transition-property: background-color;
+        transition-duration: 3s; }
+        .Vida .Vida__Descripcion2 .Gardel .FondoOpaco:hover {
+          background-color: rgba(0, 0, 0, 0.77); }
         .Vida .Vida__Descripcion2 .Gardel .FondoOpaco .GardelTitulo {
           display: flex;
           justify-content: center;
@@ -596,7 +623,11 @@ body {
     margin: auto;
     margin-top: 2rem;
     color: black;
-    border-radius: 0.8rem; }
+    border-radius: 0.8rem;
+    transition-property: transform;
+    transition-duration: 1s; }
+    .FondoFunciones .ContenedorFunciones:hover {
+      transform: translateY(-13px); }
     .FondoFunciones .ContenedorFunciones .FilaFunciones {
       width: 50%; }
       .FondoFunciones .ContenedorFunciones .FilaFunciones .FotoFunciones {
@@ -622,7 +653,7 @@ body {
         text-decoration: none;
         color: white;
         display: inline;
-        width: 80%;
+        width: 48%;
         align-self: center;
         background-color: #B19D07;
         border-radius: 0.4rem;
@@ -684,9 +715,20 @@ body {
     display: flex;
     flex-direction: column; }
 
+@media (min-width: 992px) {
+  /*----------------NavBar-----------------*/
+  .FondoCollapse {
+    box-shadow: 0 3px 7px rgba(0, 0, 0, 0.4);
+    position: fixed;
+    z-index: 1;
+    transition-property: background-color;
+    transition-duration: 2s; }
+    .FondoCollapse:hover {
+      background-color: rgba(0, 0, 0, 0.7); }
+  /*----------------NavBar--------------fin---*/ }
+
 @media (max-width: 992px) {
   /*------------HERO Y NAVBAR------------all---*/
-  /*----------------NavBar-----------------*/
   .navbar-collapse {
     background-color: rgba(0, 0, 0, 0.6); }
   /*----------------NavBar--------------fin---*/
@@ -718,7 +760,11 @@ body {
     .ContenedorMusicaIndividual .ColumnasMusica .Seccion1 {
       width: 100%; }
   /*------------MUSICA INDIVUAL----------fin--musica-*/
-  /*-------------MUSICA HTML----------fin---*/ }
+  /*-------------MUSICA HTML----------fin---*/
+  /*-------------FUNCIONES HTML------------*/
+  .FondoFunciones .ContenedorFunciones .TextoFunciones .PequeñaFunciones {
+    font-size: 0.8rem; }
+  /*-------------FUNCIONES HTML---------fin---*/ }
 
 @media (max-width: 768px) {
   /*-----------FOOTER HTML------------fin---*/
@@ -906,6 +952,8 @@ body {
       width: 100%; }
       .FondoFunciones .ContenedorFunciones .TextoFunciones .TituloFuncionesP {
         font-size: 5.5vw; }
+      .FondoFunciones .ContenedorFunciones .TextoFunciones .PequeñaFunciones {
+        font-size: 1rem; }
       .FondoFunciones .ContenedorFunciones .TextoFunciones .LinkFunciones {
         font-size: 3vw;
         display: flex;
@@ -975,7 +1023,12 @@ body {
     font-size: 6.6vw; }
   .MusicaContenedor .Musica .FugataFotoyTexto .FugataTexto .FugataParrafo {
     font-size: 3.1vw; }
-  /*------------MUSICA HTML-------fin---*/ }
+  /*------------MUSICA HTML-------fin---*/
+  /*-------------FUNCIONES HTML------------*/
+  .FondoFunciones .ContenedorFunciones .TextoFunciones .PequeñaFunciones {
+    font-size: 0.8rem;
+    font-weight: 500; }
+  /*-------------FUNCIONES HTML---------fin---*/ }
 
 @media (max-width: 450px) {
   /*-----------FOOTER HTML---------------*/
@@ -997,4 +1050,8 @@ body {
     width: 6rem;
     height: 6rem;
     border-radius: 2rem; }
-  /*-----------TAMAÑO DE LOGO PARA CELUS---------fin---*/ }
+  /*-----------TAMAÑO DE LOGO PARA CELUS---------fin---*/
+  /*-------------FUNCIONES HTML------------*/
+  .FondoFunciones .ContenedorFunciones .TextoFunciones .PequeñaFunciones {
+    font-size: 0.77rem; }
+  /*-------------FUNCIONES HTML---------fin---*/ }

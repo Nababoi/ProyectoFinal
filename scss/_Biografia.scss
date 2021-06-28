@@ -25,6 +25,11 @@
                                     flex-direction: column;
                                     height: 100%;
                                     align-items: center;
+                                    transition-property: background-color;
+                                    transition-duration: 3s;
+                                    &:hover{
+                                        background-color: rgba(0, 0, 0, .77);
+                                    }
                                 .NiñezTitulo{
                                     display: flex;
                                     justify-content: center;
@@ -51,6 +56,11 @@
                                     height: 100%;
                                     align-items: center;
                                     background-color: $Fondo-Opaco-Vida;
+                                    transition-property: background-color;
+                                    transition-duration: 3s;
+                                    &:hover{
+                                        background-color: rgba(0, 0, 0, .77);
+                                    }
                                 .JuventudTitulo{
                                     display: flex;
                                     justify-content: center;
@@ -85,6 +95,11 @@
                             justify-content: center;
                             align-items: center;
                             height: 23rem;
+                            transition-property: background-color;
+                            transition-duration: 3s;
+                            &:hover{
+                                background-color: rgba(0, 0, 0, .77);
+                            }
                             background-color: $Fondo-Opaco-Vida;
                             .VejezTitulo{
                                 font-size: $Tamaño-Titulo-Vida;
@@ -129,6 +144,11 @@
                         flex-direction: column;
                         background-color: $Fondo-Opaco-Vida;
                         border-top: 0.3rem solid white;
+                        transition-property: background-color;
+                        transition-duration: 3s;
+                        &:hover{
+                            background-color: rgba(0, 0, 0, .77);
+                        }
                             .GardelTitulo{
                                 display: flex;
                                 justify-content: center;

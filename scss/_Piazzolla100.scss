@@ -19,6 +19,11 @@
         margin-top: 2rem;
         color: black;
         border-radius: 0.8rem;
+        transition-property: transform;
+        transition-duration: 1s;
+            &:hover{
+                transform: translateY(-13px);
+            }
             .FilaFunciones{
                 width: 50%;
                     .FotoFunciones{
@@ -51,7 +56,7 @@
                         text-decoration: none;
                         color: white;
                         display: inline;
-                        width: 80%;
+                        width: 48%;
                         align-self: center;
                         background-color: #B19D07;
                         border-radius: 0.4rem;

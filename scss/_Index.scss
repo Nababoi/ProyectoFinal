@@ -26,6 +26,12 @@
                 padding: 2rem 0 2rem 0;
                 margin: 3rem 0 0 0;
                 border-radius: 0.7rem;
+                transition-duration: 1s;
+                transition-property: transform;
+
+                    &:hover{
+                        transform: translateY(-24px);
+                    }
             .FondoDescripcion{
                 background: url("https://www.laportadacanada.com/userfiles/images/culturalnota1fo2.jpg") no-repeat;
                 background-size: cover;
@@ -82,7 +88,7 @@
         }
     }
 /*-----------------PRESENTACION DE LA PÁGINA--------------Fin---*/
-/*-----------------SECCION DE LA MUSICA EN EL INDEX-------index---*/
+/*-----------------SECCION DE LA MUSICA EN EL INDEX(DATOS EXTRA)-------index---*/
 #Nonino{
     background-image: url("https://i0.wp.com/argentear.com/wp-content/uploads/2016/05/Piazzolla.jpg?fit=1500%2C803&ssl=1");
     background-size: cover;
@@ -97,6 +103,11 @@
             align-items: center;
             background-color: $Fondo-Opaco-Fondos;
             padding: 2rem;
+            transition-property: background-color;
+            transition-duration: 3s;
+            &:hover{
+                background-color: rgba(0,0,0,.8);
+            }
                 .LetrasMusicaIndex{
                     display: flex;
                     flex-direction: column;

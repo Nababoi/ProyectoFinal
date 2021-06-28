@@ -1,6 +1,19 @@
+@media (min-width: 992px){
+/*----------------NavBar-----------------*/
+.FondoCollapse{
+    box-shadow: 0 3px 7px rgba( 0, 0, 0, 0.4);
+    position: fixed;
+    z-index: 1;
+    transition-property: background-color;
+    transition-duration: 2s;
+    &:hover{
+        background-color:rgba(0, 0, 0, .7)
+    }
+}
+/*----------------NavBar--------------fin---*/
+}
 @media (max-width: 992px){
     /*------------HERO Y NAVBAR------------all---*/
-    /*----------------NavBar-----------------*/
     .navbar-collapse{
         background-color: rgba(0, 0, 0, .6);
     }
@@ -42,6 +55,11 @@
     }
     /*------------MUSICA INDIVUAL----------fin--musica-*/
     /*-------------MUSICA HTML----------fin---*/
+    /*-------------FUNCIONES HTML------------*/
+    .FondoFunciones .ContenedorFunciones .TextoFunciones .PequeñaFunciones{
+        font-size: 0.8rem;
+    }
+    /*-------------FUNCIONES HTML---------fin---*/
 }
 @media (max-width: 768px){
     /*-----------FOOTER HTML------------fin---*/
@@ -303,6 +321,9 @@
             .TituloFuncionesP{
                 font-size: 5.5vw;
             }
+            .PequeñaFunciones{
+                font-size: 1rem;
+            }
             .LinkFunciones{
                 font-size: 3vw;
                 display: flex;
@@ -403,6 +424,12 @@
             font-size: 3.1vw;
         }
         /*------------MUSICA HTML-------fin---*/
+        /*-------------FUNCIONES HTML------------*/
+    .FondoFunciones .ContenedorFunciones .TextoFunciones .PequeñaFunciones{
+        font-size: 0.8rem;
+        font-weight: 500;
+    }
+    /*-------------FUNCIONES HTML---------fin---*/
     }
 
     @media (max-width: 450px){
@@ -432,4 +459,9 @@
             border-radius: 2rem;
         }
         /*-----------TAMAÑO DE LOGO PARA CELUS---------fin---*/
+        /*-------------FUNCIONES HTML------------*/
+    .FondoFunciones .ContenedorFunciones .TextoFunciones .PequeñaFunciones{
+        font-size: 0.77rem;
+    }
+    /*-------------FUNCIONES HTML---------fin---*/
     }
