@@ -1048,6 +1048,9 @@ body {
   /*-------------FUNCIONES HTML---------fin---*/ }
 
 @media (max-width: 450px) {
+  /*---------FONDO CONTACTO--------contacto---*/
+  #Contacto {
+    background-position: 40%; }
   /*-----------FOOTER HTML---------------*/
   .Footer .Copyright .Footer__Letras {
     font-size: 3.7vw; }
