@@ -433,10 +433,16 @@
     }
 
     @media (max-width: 450px){
+        /*---------FONDO COLON SECCION PIAZZOLLA 100-----------*/
+        #Colon{
+            background-position: 75%;
+        }
+        /*---------FONDO COLON SECCION PIAZZOLLA 100-----------*/
         /*---------FONDO CONTACTO--------contacto---*/
         #Contacto{
             background-position: 40%;
         }
+        /*---------FONDO CONTACTO--------contacto--fin-*/
         /*-----------FOOTER HTML---------------*/
     .Footer .Copyright .Footer__Letras{
         font-size: 3.7vw;

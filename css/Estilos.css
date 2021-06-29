@@ -625,7 +625,7 @@ body {
 
 #Colon {
   background-image: url("../Img/PiazzollaColon.jpg");
-  background-position: 30%; }
+  background-position: 100%; }
 
 .FondoFunciones {
   background: url("https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Argentina_-_Buenos_Aires_-_Teatro_Col%C3%B3n_%28sala%29.JPG/1200px-Argentina_-_Buenos_Aires_-_Teatro_Col%C3%B3n_%28sala%29.JPG") no-repeat 50% 91%;
@@ -1049,9 +1049,14 @@ body {
   /*-------------FUNCIONES HTML---------fin---*/ }
 
 @media (max-width: 450px) {
+  /*---------FONDO COLON SECCION PIAZZOLLA 100-----------*/
+  #Colon {
+    background-position: 75%; }
+  /*---------FONDO COLON SECCION PIAZZOLLA 100-----------*/
   /*---------FONDO CONTACTO--------contacto---*/
   #Contacto {
     background-position: 40%; }
+  /*---------FONDO CONTACTO--------contacto--fin-*/
   /*-----------FOOTER HTML---------------*/
   .Footer .Copyright .Footer__Letras {
     font-size: 3.7vw; }
